@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+       <field name="id" type="text" default="0" label="COM_MODERN_TOURS_FORM_LBL_MODERNTIME_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_MODERN_TOURS_FORM_LBL_MODERNTIME_CREATED_BY"
+            description="COM_MODERN_TOURS_FORM_DESC_MODERNTIME_CREATED_BY"  /> 
+
+       <field
+           name="times"
+           type="text"
+           label="MB_TIMES"
+           description="COM_MODERN_TOURS_FORM_DESC_MODERNTIME_TIMES"
+           filter="raw" />
+
+        <field name="title" type="text" label="MB_NAME" hint="FORM_TITLE" />
+        <field name="division" type="text" label="MB_DIVISION" default="1" />
+        <field name="bans" type="text" label="bans"/>
+        <field name="bandates" type="text" label="bandates"/>
+        <field name="discount" type="text" label="discount"/>
+        <field name="reserved" type="text" label="reserved"/>
+
+
+        <field
+            name="state"
+            type="list"
+            label="JSTATUS"
+            description="JFIELD_PUBLISHED_DESC"
+            class="inputbox"
+            size="1"
+            default="1">
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+            <option value="2">JARCHIVED</option>
+            <option value="-2">JTRASHED</option>
+        </field>
+
+        <field name="fromtime" type="hidden" />
+        <field name="checked_out" type="hidden" filter="unset"/>
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+    <fields name="params">
+        <fieldset name="params">
+
+            <field
+                    name="use_params"
+                    type="list"
+                    label="USE_PARAMS"
+                    default="0">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field
+                    name="type"
+                    type="list"
+                    label="SLOT_RESERVATION_TYPE"
+                    default="1">
+                <option value="1">SINGLE</option>
+                <option value="2">MULTI_CONSECUTIVE</option>
+                <option value="4">MULTI_NONCONSECUTIVE</option>
+                <option value="3">FIXED</option>
+            </field>
+
+            <field
+                name="fixed_slots"
+                type="text"
+                label="FIXED_SLOTS_COUNT"
+                default="3"
+            />
+
+            <field
+                name="slots"
+                type="text"
+                label="MAXIMUM_SLOTS"
+                default="99"
+            />
+
+            <field
+                    name="min_slots"
+                    type="text"
+                    label="MINIMUM_SLOTS"
+                    default="1"
+            />
+
+        </fieldset>
+    </fields>
+
+</form>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * @copyright	Copyright (c) 2015 stripe. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+-->
+<extension type="plugin" version="3.0" group="tourpayment" method="upgrade">
+	<name>Stripe payment</name>
+	<author>Jonas Jovaišas</author>
+	<creationDate>January 2019</creationDate>
+	<copyright>Copyright (c) 2015 stripe. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>jonasjovaisas0@gmail.com</authorEmail>
+	<authorUrl>http://www.modernjoomla.com</authorUrl>
+	<version>1.0.0</version>
+	<description>
+	<![CDATA[
+		Stripe payment plugin for Modern booking component.
+	]]>
+	</description>
+
+	<files>
+		<filename plugin="stripe">stripe.php</filename>
+		<filename plugin="stripe">view.php</filename>
+		<filename>index.html</filename>
+		<folder>lib</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="sandbox" type="radio" default="0" label="Test mode">
+                  <option value="0">JNo</option>
+                  <option value="1">JYes</option>
+                </field>
+				<field name="test_secret" type="text" size="50" default="" label="Test secret key"/>
+				<field name="test_publish" type="text" size="50" default="" label="Test publishable key"/>
+				<field name="live_secret" type="text" size="50" default="" label="Live secret key"/>
+				<field name="live_publish" type="text" size="50" default="" label="Live publishable key"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

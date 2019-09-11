@@ -1,0 +1,95 @@
+[03-Aug-2019 23:27:07 UTC] PHP Notice:  Undefined index: starttime in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 41
+[03-Aug-2019 23:27:07 UTC] PHP Notice:  Undefined offset: 1 in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 43
+[03-Aug-2019 23:27:07 UTC] PHP Notice:  Trying to get property 'user_paid_message' of non-object in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 124
+[03-Aug-2019 23:27:07 UTC] PHP Notice:  Trying to get property 'admin_ paid_message' of non-object in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 125
+[03-Aug-2019 23:27:07 UTC] 
+[03-Aug-2019 23:27:07 UTC] 
+[05-Aug-2019 20:59:04 UTC] PHP Notice:  Undefined index: starttime in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 41
+[05-Aug-2019 20:59:05 UTC] PHP Notice:  Undefined offset: 1 in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 43
+[05-Aug-2019 20:59:05 UTC] PHP Notice:  Trying to get property 'user_partially_paid_message' of non-object in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 124
+[05-Aug-2019 20:59:05 UTC] PHP Notice:  Trying to get property 'admin_ partially_paid_message' of non-object in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 125
+[05-Aug-2019 20:59:05 UTC] 
+[05-Aug-2019 20:59:05 UTC] 
+[05-Aug-2019 21:34:33 UTC] PHP Notice:  Undefined index: starttime in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 41
+[05-Aug-2019 21:34:33 UTC] PHP Notice:  Undefined offset: 1 in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 43
+[05-Aug-2019 21:34:33 UTC] PHP Notice:  Trying to get property 'user_partially_paid_message' of non-object in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 124
+[05-Aug-2019 21:34:33 UTC] PHP Notice:  Trying to get property 'admin_ partially_paid_message' of non-object in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 125
+[05-Aug-2019 21:34:33 UTC] 
+[05-Aug-2019 21:34:33 UTC] 
+[06-Aug-2019 11:16:36 UTC] PHP Notice:  Undefined index: starttime in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 41
+[06-Aug-2019 11:16:36 UTC] PHP Notice:  Undefined offset: 1 in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 43
+[06-Aug-2019 11:16:36 UTC] PHP Notice:  Trying to get property 'user_paid_message' of non-object in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 124
+[06-Aug-2019 11:16:36 UTC] PHP Notice:  Trying to get property 'admin_ paid_message' of non-object in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 125
+[06-Aug-2019 11:16:36 UTC] 
+[06-Aug-2019 11:16:36 UTC] 
+[06-Aug-2019 11:26:59 UTC] PHP Notice:  Undefined index: starttime in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 41
+[06-Aug-2019 11:26:59 UTC] PHP Notice:  Undefined offset: 1 in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 43
+[06-Aug-2019 11:26:59 UTC] PHP Notice:  Undefined property: stdClass::$admin_ paid_message in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 125
+[06-Aug-2019 11:26:59 UTC] Thanks for making a payment ty fairclough
+[06-Aug-2019 11:26:59 UTC] 
+[12-Aug-2019 23:03:29 UTC] PHP Notice:  Undefined index: starttime in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 41
+[12-Aug-2019 23:03:30 UTC] PHP Notice:  Undefined offset: 1 in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 43
+[12-Aug-2019 23:03:30 UTC] PHP Notice:  Undefined property: stdClass::$admin_ partially_paid_message in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 125
+[12-Aug-2019 23:03:30 UTC] Thanks for making a payment Ty Fairclough
+[12-Aug-2019 23:03:30 UTC] 
+[25-Aug-2019 22:03:23 UTC] PHP Notice:  Undefined index: starttime in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 41
+[25-Aug-2019 22:03:23 UTC] PHP Notice:  Undefined offset: 1 in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 43
+[25-Aug-2019 22:03:23 UTC] PHP Notice:  Undefined property: stdClass::$admin_ partially_paid_message in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 125
+[25-Aug-2019 22:03:23 UTC] Thanks for making a payment Ty Fairclough
+[25-Aug-2019 22:03:23 UTC] 
+[29-Aug-2019 14:14:13 UTC] PHP Notice:  Undefined index: starttime in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 41
+[29-Aug-2019 14:14:14 UTC] PHP Notice:  Undefined offset: 1 in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 43
+[29-Aug-2019 14:14:14 UTC] PHP Notice:  Undefined property: stdClass::$admin_ paid_message in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 125
+[29-Aug-2019 14:14:14 UTC] Thanks for making a payment {first-name} {last-name}
+
+
+You can manage your booking with the following details:
+
+2019-08-29 14:14:14
+
+
+<p>Some example html</p>
+<div>Does this render</div>
+[29-Aug-2019 14:14:14 UTC] 
+[29-Aug-2019 14:33:27 UTC] PHP Notice:  Undefined index: starttime in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 41
+[29-Aug-2019 14:33:27 UTC] PHP Notice:  Undefined offset: 1 in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 43
+[29-Aug-2019 14:33:27 UTC] PHP Notice:  Undefined property: stdClass::$admin_ paid_message in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 125
+[29-Aug-2019 14:33:27 UTC] Thanks for making a payment {first-name} {last-name}
+
+
+You can manage your booking with the following details:
+
+2019-08-29 14:33:27
+
+
+<p>Some example html</p>
+<div>Does this render</div>
+[29-Aug-2019 14:33:27 UTC] 
+[30-Aug-2019 21:52:22 UTC] PHP Notice:  Undefined index: starttime in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 41
+[30-Aug-2019 21:52:22 UTC] PHP Notice:  Undefined offset: 1 in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/models/reservations.php on line 43
+[30-Aug-2019 21:52:22 UTC] PHP Notice:  Undefined property: stdClass::$admin_ paid_message in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/staging/components/com_modern_tours/helpers/mtpayment.php on line 125
+[30-Aug-2019 21:52:22 UTC] Thanks for making a payment {first-name} {last-name}
+
+
+You can manage your booking with the following details:
+
+2019-08-30 21:52:22
+
+
+<p>Some example html</p>
+<div>Does this render</div>
+[30-Aug-2019 21:52:22 UTC] 
+[01-Sep-2019 21:59:00 UTC] PHP Notice:  Undefined index: starttime in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/production/components/com_modern_tours/models/reservations.php on line 41
+[01-Sep-2019 21:59:00 UTC] PHP Notice:  Undefined offset: 1 in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/production/components/com_modern_tours/models/reservations.php on line 43
+[01-Sep-2019 21:59:00 UTC] PHP Notice:  Undefined property: stdClass::$admin_ paid_message in /home/u434793071/domains/costaricanatureguidedtours.com/public_html/production/components/com_modern_tours/helpers/mtpayment.php on line 125
+[01-Sep-2019 21:59:00 UTC] Thanks for making a payment {first-name} {last-name}
+
+
+You can manage your booking with the following details:
+
+2019-09-01 21:59:00
+
+
+<p>Some example html</p>
+<div>Does this render</div>
+[01-Sep-2019 21:59:00 UTC] 

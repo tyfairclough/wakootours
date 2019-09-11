@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * @copyright	Copyright (c) 2015 paypal. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+-->
+<extension type="plugin" version="3.0" group="tourpayment" method="upgrade">
+	<name>Paypal payment</name>
+	<author>Jonas</author>
+	<creationDate>February 2015</creationDate>
+	<copyright>Copyright (c) 2015. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@unikalus.com</authorEmail>
+	<authorUrl>unikalus.com</authorUrl>
+	<version>1.0.0</version>
+	<description>
+	<![CDATA[
+		Paypal payment plugin for Modern booking component.
+	]]>
+	</description>
+
+	<files>
+		<filename plugin="paypal">paypal.php</filename>
+		<filename plugin="paypal">view.php</filename>
+		<filename plugin="paypal">ipnlistener.php</filename>
+		<filename>index.html</filename>
+		<folder>cert</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="sandbox" type="radio" default="0" label="Paypal sandbox mode" description="Choose Yes if you want to test payments.">
+                  <option value="0">JNo</option>
+                  <option value="1">JYes</option>
+                </field>
+                <field name="merchant" type="text" size="50" default="" label="Paypal merchant email" description="Paypal merchant email where payments for reservations will go."/>
+				<field name="return" type="menuitem" default="45" label="Return thank you page" description="Menu item user will be redirected after successful payment" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field name="id" type="text" readonly="true" class="readonly" default="0" description="JGLOBAL_FIELD_ID_DESC"/>
+    <field name="ordering"/>
+    <field name="checked_out" type="hidden" filter="unset"/>
+    <field name="checked_out_time" default="0000-00-00 00:00:00" type="hidden" filter="unset"/>
+    <field name="created_by" type="createdby" default="0" label="COM_MODERN_TOURS_FORM_LBL_RESERVATION_CREATED_BY" description="COM_MODERN_TOURS_FORM_DESC_RESERVATION_CREATED_BY" hidden="true" hint="COM_MODERN_TOURS_FORM_LBL_RESERVATION_CREATED_BY"/>
+    <field name="modified_by" type="modifiedby" default="0" label="COM_MODERN_TOURS_FORM_LBL_RESERVATION_MODIFIED_BY" description="COM_MODERN_TOURS_FORM_DESC_RESERVATION_MODIFIED_BY" hidden="true" hint="COM_MODERN_TOURS_FORM_LBL_RESERVATION_MODIFIED_BY"/>
+    <field
+            name="assets_id"
+            type="sql"
+            default="10"
+            label="COM_MODERN_TOURS_ASSET"
+            query="SELECT id,title FROM #__modern_tours_assets"
+            key_field="id"
+            value_field="title"
+    />
+    <field name="status" default="reserved" type="list" label="BOOKING_STATUS">
+      <option value="Paid">COM_MODERN_TOURS_RESERVATIONS_STATUS_OPTION_PAID</option>
+      <option value="Reserved">COM_MODERN_TOURS_RESERVATIONS_STATUS_OPTION_RESERVED</option>
+      <option value="Waiting">COM_MODERN_TOURS_RESERVATIONS_STATUS_OPTION_WAITING</option>
+      <option value="Canceled">COM_MODERN_TOURS_RESERVATIONS_STATUS_OPTION_CANCELED</option>
+    </field>
+
+    <field name="email" validate="email" type="email" label="COM_MODERN_TOURS_EMAIL"/>
+    <field name="date" default="0000-00-00 00:00:00" type="calendar" class="inputbox" format="%Y-%m-%d %H:%M:%S" showtime="true" translateformat="true" label="COM_MODERN_TOURS_RESERVATIONS_DATE"/>
+    <field name="price" label="COM_MODERN_TOURS_RESERVATIONS_PRICE"/>
+    <field name="fields_id" type="hidden"/>
+    <field name="userData" type="hidden"/>
+    <field name="adults" type="number" min="1" default="1" buttons="true" class="inputbox" filter="safehtml" label="COM_MODERN_TOURS_RESERVATIONS_ADULTS" />
+    <field name="children" type="number" min="1" default="1" buttons="true" class="inputbox" filter="safehtml" label="COM_MODERN_TOURS_RESERVATIONS_CHILDREN" />
+    <field name="additional" type="editor" buttons="true" class="inputbox" filter="safehtml" label="COM_MODERN_TOURS_FORM_LBL_RESERVATION_ADDITIONAL" description="COM_MODERN_TOURS_FORM_DESC_RESERVATION_ADDITIONAL" hidden="true" hint="COM_MODERN_TOURS_FORM_LBL_RESERVATION_ADDITIONAL"/>
+    <field name="registered" default="0000-00-00 00:00:00" type="calendar" class="inputbox" format="%Y-%m-%d %H:%M:%S" showtime="true" translateformat="true" label="COM_MODERN_TOURS_FORM_LBL_RESERVATION_REGISTERED" description="COM_MODERN_TOURS_FORM_DESC_RESERVATION_REGISTERED" hint="COM_MODERN_TOURS_FORM_LBL_RESERVATION_REGISTERED"/>
+    <field name="version_note" type="text" label="JGLOBAL_FIELD_VERSION_NOTE_LABEL" description="JGLOBAL_FIELD_VERSION_NOTE_DESC" class="inputbox" size="45" labelclass="control-label"/>
+  </fieldset>
+</form>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field name="id" type="text" readonly="true" class="readonly" default="0" description="JGLOBAL_FIELD_ID_DESC"/>
+    <field name="ordering"/>
+    <field name="state" default="1" type="list" label="JSTATUS" description="JFIELD_PUBLISHED_DESC" class="inputbox" size="1">
+      <option value="1">JPUBLISHED</option>
+      <option value="0">JUNPUBLISHED</option>
+      <option value="2">JARCHIVED</option>
+      <option value="-2">JTRASHED</option>
+    </field>
+    <field name="checked_out" type="hidden" filter="unset"/>
+    <field name="checked_out_time" default="0000-00-00 00:00:00" type="hidden" filter="unset"/>
+    <field name="created_by" type="createdby" default="0" label="COM_MODERN_TOURS_FORM_LBL_REVIEW_CREATED_BY" description="COM_MODERN_TOURS_FORM_DESC_REVIEW_CREATED_BY" hidden="true" hint="COM_MODERN_TOURS_FORM_LBL_REVIEW_CREATED_BY"/>
+    <field name="modified_by" type="modifiedby" default="0" label="COM_MODERN_TOURS_FORM_LBL_REVIEW_MODIFIED_BY" description="COM_MODERN_TOURS_FORM_DESC_REVIEW_MODIFIED_BY" hidden="true" hint="COM_MODERN_TOURS_FORM_LBL_REVIEW_MODIFIED_BY"/>
+
+    <field
+            name="assets_id"
+            type="sql"
+            default="10"
+            label="COM_MODERN_TOURS_ASSET"
+            query="SELECT id,title FROM #__modern_tours_assets"
+            key_field="id"
+            value_field="title"
+    />
+
+    <field name="title" filter="safehtml" type="text" required="true" label="COM_MODERN_TOURS_FORM_LBL_REVIEW_TITLE" description="COM_MODERN_TOURS_FORM_DESC_REVIEW_TITLE" hint="COM_MODERN_TOURS_FORM_LBL_REVIEW_TITLE"/>
+    <field name="review" filter="safehtml" type="textarea" required="true" label="COM_MODERN_TOURS_FORM_LBL_REVIEW_REVIEW" description="COM_MODERN_TOURS_FORM_DESC_REVIEW_REVIEW" hint="COM_MODERN_TOURS_FORM_LBL_REVIEW_REVIEW"/>
+
+    <field name="rating" default="1" type="list" label="COM_MODERN_TOURS_FORM_LBL_REVIEW_RATING" description="COM_MODERN_TOURS_FORM_DESC_REVIEW_RATING" hint="COM_MODERN_TOURS_FORM_LBL_REVIEW_RATING" class="inputbox" size="1">
+      <option value="1">1_STAR</option>
+      <option value="2">2_STAR</option>
+      <option value="3">3_STAR</option>
+      <option value="4">4_STAR</option>
+      <option value="5">5_STAR</option>
+    </field>
+
+    <field name="date" type="calendar" format="%Y-%m-%d" default="NOW" label="COM_MODERN_TOURS_FORM_LBL_DATE_TITLE"  />
+    <field
+            name="user_id"
+            type="sql"
+            default="10"
+            label="Select user"
+            query="SELECT id,name FROM #__users"
+            key_field="id"
+            value_field="name"
+    />
+    <field name="version_note" type="text" label="JGLOBAL_FIELD_VERSION_NOTE_LABEL" description="JGLOBAL_FIELD_VERSION_NOTE_DESC" class="inputbox" size="45" labelclass="control-label"/>
+  </fieldset>
+</form>

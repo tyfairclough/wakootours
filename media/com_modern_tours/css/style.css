@@ -1,0 +1,1176 @@
+
+
+@media (min-width: 767px) {
+    .pad-30 {
+        padding-left:  30px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    #search-bar .search-bar-field {
+        margin-bottom: 10px;
+    }
+    span.view-gallery {
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 767px) AND (max-width: 978px) {
+    button.next-btn, button.prev-btn {
+        width: 100% !important;
+    }
+}
+
+.time i {
+    padding-right: 5px;
+    font-size: 16px;
+    /* position: absolute; */
+    left: 9px;
+    top: 16px;
+}
+.selected i.fa.fa-clock-o {
+    padding-right: 6px;
+}
+.selected i.fa.fa-clock-o:before {
+    content: "\f00c";
+    font-size: 13px;
+}
+i.fa.fa-users.fa-2x {
+    font-size: 23px;
+    margin-top: -2px !important;
+}
+
+i.fa.fa-heart-o.fa-2x {
+    margin-top: -2px;
+    font-size: 26px;
+    left: 1px;
+}
+
+.box-price-total {
+    margin-top: 10px;
+}
+
+
+.view-asset section#sp-main-body {
+    padding-top: 0 !important;
+}
+#tour-details-section > h2.checkout-h2 {
+    margin-top: -4px !important;
+}
+.cover-overlay {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.33+16,0+50,0+55,0.25+91 */background: -moz-linear-gradient(top,  rgba(0,0,0,0.33) 0%, rgba(0,0,0,0.33) 16%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.25) 91%, rgba(0,0,0,0.25) 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top,  rgba(0,0,0,0.33) 0%,rgba(0,0,0,0.33) 16%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 55%,rgba(0,0,0,0.25) 91%,rgba(0,0,0,0.25) 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom,  rgba(0,0,0,0.33) 0%,rgba(255, 255, 255, 0.33) 16%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 55%,rgba(0,0,0,0.25) 71%,rgba(0, 0, 0, 0.67) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54000000', endColorstr='#40000000',GradientType=0 ); /* IE6-9 */position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-size: cover;background-position: center;z-index: 1;}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #00000066;
+    transition: 0.25s;
+    opacity: 0;
+}
+.overlay.show-overlay {
+    opacity: 1;
+}
+
+body.no-overflow {
+    overflow: hidden;
+}
+
+svg.marged10 {
+    margin: 0px 4px;
+    width: 7px;
+}
+
+.select-time {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.related-cover {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 2px;
+}
+
+
+.swal2-container.swal2-fade.swal2-shown button.swal2-confirm.swal2-styled,
+.swal2-container.swal2-fade.swal2-shown hr {
+    display: none;
+}
+
+.col-xs-6.lf {
+    padding: 0;
+    padding-right:  5px;
+}
+
+.col-xs-6.rf {
+    padding: 0;
+    padding-left: 5px;
+}
+
+.reserve {
+    display: none;
+}
+
+td.day.blocked {
+    pointer-events: none;
+    color: #aeaeae;
+}
+
+body.com-modern-tours.view-asset #sp-main-body {
+    padding-top: 40px;
+}
+
+.btn-keeper {
+    width: 100%;
+}
+
+span.tag {
+    margin-right: 10px;
+    font-size: 13px;
+    color: gainsboro;
+}
+
+.lowest-price {
+    margin-top: 10px;
+}
+.btn-keeper a.btn.full-btn {
+    font-size: 14px;
+}
+.asset-review span.review-text {
+    display: block;
+    /* float: right; */
+}
+
+.info-fields {
+    margin-top: 15px;
+}
+a.btn.full-btn {
+    font-size: 100%;
+    background: #556393;
+    color: white;
+    display: block;
+    height: 35px;
+    line-height: 25px;
+    width: 100%;
+    margin-top: 20px;
+    text-shadow: none;
+}
+
+.pad-15 {
+    padding: 15px;
+}
+
+.asset-last-col {
+    border-left: 1px solid #e8e8e8;
+}
+
+.no-pad {
+    padding: 0 !important;
+}
+
+
+
+.asset-lowest {
+    font-size: 30px;
+    margin-top: -5px;
+}
+ul.excludes-list {
+    padding: 0;
+}
+
+#related-tours {
+    width: 100%;
+}
+#related-tours span.post-content p {
+    margin: 0;
+    padding: 0;
+}
+
+/**** SEARCH BAR *****/
+#search-bar {
+    padding: 30px 0;
+    border-radius: 2px;
+    color: #505050;
+}
+
+#searchbar-container {
+    background: #ffffff;
+}
+
+#search-bar #search-btn {
+    height: 40px;
+    background: #414141;
+    border: none;
+    color: #ffffff;
+    width: 100%;
+    padding: 0;
+}
+#search-bar #search-btn:hover {
+    background: #797979;
+}
+
+#search-bar input,
+#search-bar select {
+    font-size: 90%;
+    padding: 0;
+    height: 40px;
+    padding-left: 10px !important;
+    padding-right:  5px;
+    text-indent: 0 !important;
+    border: 2px solid #e2e2e2;
+    border-radius: 0;
+}
+
+body .one-line #search-bar .search-bar-field {
+    width: 100% !important;
+    max-width: 100%  !important;
+    flex: 100% !important;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.one-line #search-bar {
+    padding: 15px 0;
+}
+.one-line .invisible {
+    display: none;
+}
+
+/*** ASSET LIST SINGLE ***/
+.asset-item {
+    margin-bottom: 25px;
+    background: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.asset-item .small-desc {
+    color: grey;
+    font-size: 13px;
+}
+
+.asset-item .category-container {
+    /* border-top-left-radius: 5px; */
+    /* border-bottom-left-radius: 5px; */
+}
+
+.asset-item .list-item-title {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.asset-item .list-item-title a {
+    color: black;
+}
+
+.asset-item .additional-fields span {
+    display: block;
+    font-size: 12px;
+    line-height: 27px;
+}
+.asset-item .additional-fields i {
+    font-size: 13px;
+    margin-right: 3px;
+}
+
+/******* ASSET COLUMN ********/
+.tours-list .asset-keeper {
+    box-shadow: 0px 8px 0px 0 #0000001c;
+    background: white;
+}
+.asset-keeper {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border: 1px solid #e1e1e1;
+}
+
+.asset-content {
+    clear: both;
+    padding: 20px;
+}
+.asset-content .small-description {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #212121;
+    font-size: 14px;
+}
+.asset-content .asset-info {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #181818;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* REVIEW */
+#review-modal {
+    margin: auto;
+}
+#review-modal textarea, #review-modal input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+}
+#review-form label {
+    margin-top: 10px;
+}
+#review-form #submit-review {
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #e6e6e6;
+    border-radius: 2px;
+    cursor:pointer;
+}
+#review-form #submit-review:hover {
+    background: #d5d5d5;
+}
+#review-modal .leave-review-title {
+    font-size: 24px;
+}
+#review-modal .leave-review-login {
+    margin: 0;
+    text-align: center;
+    font-size: 23px;
+}
+
+/**** CATEGORY TITLE *****/
+div#sp-tourdetails .cat-bg {
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0;
+    position: relative;
+    height: 400px;
+}
+
+div#sp-tourdetails .cat-bg:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #0000003b;
+}
+
+div#sp-tourdetails .category-title {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    line-height: 50px;
+    text-align: left;
+}
+div#sp-tourdetails .category-title-desc {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.header_style-3 div#sp-tourdetails .cat-bg {
+    padding-top: 170px;
+}
+
+/*** SLIDER ***/
+.slider-nav {
+    position: relative;
+}
+
+.inline.slider_nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.inline.slider_nav button {
+    background: transparent;
+    border: none;
+    height: 30px;
+    line-height: 0;
+    border-radius: 0;
+    width: 30px;
+    transition: 0.5s;
+}
+.inline.slider_nav button:hover {
+    background: white;
+}
+
+.slider-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/*** MISC ***/
+.table-dummy {
+    display: table;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.cell-dummy {
+    display: table-cell;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.h50 {
+    height: 50px !important;
+}
+
+.w50 {
+    width: 50px !important;
+}
+
+
+/***** LIST ITEMS ******/
+.asset-list-item {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.asset-list-item .from-price-asset {
+    color: #848484;
+    font-size: 13px;
+}
+
+.asset-list-item a.single-asset-link {
+    color: #343434;
+}
+
+.asset-list-item .category-container.list-container {
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+
+.asset-list-item .asset-list-h4 {
+    margin-top: -5px;
+    font-size: 14px;
+    display: block;
+}
+
+
+
+/**** LOADING *****/
+div#loading-block {
+    margin: auto;
+}
+
+.loading-text {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.loading-gif {
+    display: inline;
+    width: 100px;
+}
+
+h2#modalTitleId {
+    margin-bottom: 1em;
+}
+
+hr.swal2-spacer {
+    display: none !important;
+}
+
+span.warning {
+    background: maroon;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 21px;
+    font-size: 16px;
+}
+
+/****** LIST SLIDER *********/
+.the-asset-items-list.row {
+    margin: 0;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.asset-keeper {
+}
+.asset-item-column {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.owl-stage-outer {
+    padding: 15px 0;
+}
+
+.owl-nav {
+    display: none !important;
+}
+
+.asset-item-column a.btn.full-btn {
+    color: black;
+    text-align: left;
+    padding: 10px;
+    width: inherit;
+    display: inline-block;
+    background: #dbdbdb;
+    margin: 0;
+    float: none;
+    clear: both;
+    line-height: 17px;
+    margin-top: 15px;
+}
+
+.asset-item-column .asset-review {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.asset-item-column .asset-review span.review-text {
+    display: inline;
+    padding-left: 5px;
+}
+
+a.review-link {
+    color: #999999;
+    font-weight: 800;
+}
+
+/***** DATA LIST ******/
+.data-list .asset-keeper {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.data-list .asset-keeper:after {
+    content: " ";
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    box-shadow: 0px -20px 50px 55px #0000008f;
+    z-index: 1;
+}
+
+.data-list span.data-title {
+    position: absolute;
+    z-index: 9;
+    bottom: 5%;
+    left: 8%;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.category-container {
+    overflow: hidden;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+.items-list .category-container {
+    margin-bottom: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 250px;
+}
+
+
+/********* ABSOLUTE ARROWS *********/
+.nav-absolute .inline.slider_nav button {
+    top: -62px;
+    z-index: 99999;
+    cursor: pointer;
+    position: absolute;
+    background: #ffffff;
+    color: #555555;
+}
+
+.nav-absolute .inline.slider_nav button:hover {
+    background: #f7f7f7;
+}
+
+.nav-absolute .inline.slider_nav button.next {
+    left: 0;
+}
+
+.nav-absolute .inline.slider_nav button.am-prev {
+    right: 0;
+}
+
+.nav-absolute button:focus {
+    outline: none;
+}
+
+
+
+/*** HOVER EFFECTS ***/
+.hover-effect {
+    transition: 0.1s;
+}
+
+.TZoomInAndRotate:hover {
+    transform: rotate(-2deg) scale(1.05);
+}
+
+.TslideUp:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 11px 0px 0 #00000024;
+}
+
+
+
+/**** XZ ****/
+body .menu-icon {
+    font-size: 15px !important;
+    left: 0000000;
+    position: absolute;
+    margin-top: 5px;
+}
+body i.fa.fa-plane.menu-icon {
+    font-size: 17px !important;
+}
+
+div#keeper {
+    transition: 1s;
+}
+
+div#keeper.is_stuck {
+    margin-top: 100px;
+}
+
+.holder {
+    width: 80%;
+    float: right;
+    overflow: hidden;
+}
+
+
+.time-list i {
+    color: #cccccc !important;
+}
+
+div#tour-itirenary-section h2 {
+    margin-bottom: 45px;
+}
+
+
+
+/* EXTRA TOUR SIDEBAR */
+.extra-tour {
+    background-position: center;
+    background-size: cover;
+    height: 170px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+.extra-tour:hover {
+    opacity: 1;
+}
+
+.extra-tour:after {
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.33) 0%, rgba(0,0,0,0.33) 16%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.25) 91%, rgba(0,0,0,0.25) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.33) 0%,rgba(0,0,0,0.33) 16%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 55%,rgba(0,0,0,0.25) 91%,rgba(0,0,0,0.25) 100%);
+    background: linear-gradient(to bottom, rgba(184, 184, 184, 0.33) 0%,rgba(255, 255, 255, 0.33) 16%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 55%,rgba(0, 0, 0, 0.19) 71%,rgba(0, 0, 0, 0.77) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54000000', endColorstr='#40000000',GradientType=0 );
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    display: block;
+    content: " ";
+}
+
+.extra-title {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    z-index: 999;
+}
+
+.extra-price {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    font-weight: 400;
+    right: 15px;
+    top: 15px;
+    background: #0a2d61;
+    padding: 2px 19px;
+    border-radius: 2px;
+    z-index: 2;
+}
+/* RESERVATION COMPLETE */
+.res-desc {
+    line-height: 33px;
+    font-size: 15px;
+}
+
+.reservation-complete {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+
+/* LOGIN */
+h1.not-logged {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: -5px;
+    margin-top: 0;
+}
+
+form#login-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px 15px 15px 15px;
+}
+
+form#login-form input {
+    font-size: 14px;
+    height: 45px;
+    text-indent: 5px;
+    box-shadow: none;
+    margin-bottom: 9px;
+}
+
+form#login-form #modlgn-remember {
+    margin-left: -20px;
+    height: initial;
+}
+
+form#login-form ul {
+    padding: 0;
+    margin: 0;
+}
+
+form#login-form ul li {
+    display: inline-block;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+form#login-form button.btn.btn-primary.login-button {
+    font-size: 15px;
+    width: 100%;
+    height: 42px;
+    font-weight: 500;
+    background: #4e7eb6;
+    border: none;
+}
+
+form#login-form button.btn.btn-primary.login-button:hover {
+    background: #578ece;
+}
+
+form#login-form .input-group-prepend {
+    display: none;
+}
+
+form#login-form label.control-label {
+    font-weight: 500;
+}
+.search-bar-field label {
+    font-weight: 500;
+}
+
+/* LISTING */
+.listing-container .light-shadow:hover {
+    opacity: 0.8;
+}
+.listing-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.listing-container:hover {
+    box-shadow: 0 0 25px 0 #05050542;
+}
+.listing-container .listing-image {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.listing-container .listing-image:hover {
+    transform: scale(1.1);
+}
+
+.listing-container:hover .listing-title {
+    bottom: 25px;
+}
+.listing-container .listing-title {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 0 25px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+
+/* MISC */
+.no-break {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inherit;
+}
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+.align-right {
+    text-align: right;
+}
+.pad15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pad15-bot {
+    padding-bottom: 15px;
+}
+.no-nav .owl-stage-outer {
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+.h200 {
+    height: 200px;
+}
+.h250 {
+    height: 250px;
+}
+.h275 {
+    height: 275px;
+}
+.h300 {
+    height: 300px;
+}
+.h325 {
+    height: 325px;
+}
+.light-shadow {
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 17%, rgba(0,0,0,0) 68%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 17%,rgba(0,0,0,0) 68%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 17%,rgba(0,0,0,0) 68%,rgba(0, 0, 0, 0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+.behind-shadow {
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    content: " ";
+    z-index: 1;
+    pointer-events: none;
+}
+.dark {
+    background: #0000003b;
+}
+.table-dummy:hover .dark {
+    background: #0000006e;
+}
+
+
+
+/* ASSET */
+.asset-single {
+    background: white;
+    margin-bottom: 37px;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 5px #dddddd;
+    transition: 0.3s;
+}
+.asset-single:hover {
+    box-shadow: 0 10px #b6b6b6;
+    transform: translateY(-6px);
+}
+
+.asset-single .asset-image-container {
+    background-size: cover;
+    position: relative;
+    display: block;
+    background-position: center;
+    content: " ";
+}
+
+.asset-single .asset-title {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+}
+
+.asset-single .asset-title a {
+    color: black;
+}
+
+.asset-single .asset-title a:hover {
+    opacity: 0.7;
+}
+
+.asset-single .asset-description {
+    color: #7e7e7e;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.asset-single .asset-description p {
+    margin: 0;
+    padding: 0;
+}
+
+.asset-single .asset-review .stars {
+    float: left;
+    margin-right: 2px;
+}
+
+.asset-single .asset-review .fa {
+    margin-right: 3px;
+}
+
+.asset-single .asset-review .fa-star {
+    color: #f5d726;
+}
+
+.asset-single .asset-footer {
+    margin: 20px -20px -20px -20px;
+    padding: 10px 20px;
+    background: #f9f9f9;
+    overflow: hidden;
+}
+
+.asset-single .asset-footer .asset-footer-price {
+    color: #397ea5;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.asset-single .asset-footer .asset-price-from {
+    margin-right: 3px;
+}
+
+/*** ASSET SUB ***/
+.asset-sub {
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+.asset-sub .cat-title a {
+    color: white;
+}
+
+.asset-sub .cat-title i {
+    font-size: 18px;
+}
+
+.asset-sub .category-container {
+    height: 330px;
+}
+
+.asset-sub .info-keeper {
+    width: 100%;
+    height: 100%;
+}
+
+.asset-sub .cell-dummy {
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 2px #000000c2;
+    position: relative;
+    z-index: 1;
+}
+
+.asset-sub .tours-count {
+    display: block;
+    transform: translateY(30px);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.asset-sub:hover .tours-count {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.asset-sub .cat-title {
+    transform: translateY(10px);
+    transition: 0.2s;
+}
+
+.asset-sub:hover .cat-title {
+    transform: translateY(-5px);
+    opacity: 1;
+}
+
+/*** PROFILE ***/
+@media (max-width: 767px) {
+    .reservations-left-col {
+        float: left;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .reservations-right-col {
+        width: 100%;
+        margin-top: 15px;
+        clear: both;
+        float: left;
+    }
+    .booking-price {
+        position: initial;
+        clear: both;
+        float: left;
+    }
+
+    .tour-image {
+        width: 100%;
+        position: relative;
+        height: 200px;
+    }
+
+    .booking-status.waiting {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .booking-actions {
+        position: initial;
+        margin: 0;
+        float: right;
+    }
+}
+
+
+div#cover-carousel.owl-carousel .owl-stage-outer {
+    overflow: unset !important;
+    padding: 0;
+}
+div#cover-carousel .owl-item {
+    height: 100vh;
+    width: 100% !important;
+}
+
+.tm-page { position: initial !important; z-index: 0; }
+.pricesFrom {
+    position: absolute;
+    right: 20px;
+    background: #241d18;
+    padding: 20px;
+    top: -5px;
+    color: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+}
+
+.pricesFrom div {
+        text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 900;
+}
+
+.pricesFrom div + div {
+        text-align: center;
+    font-size: 2rem;
+    line-height: initial;
+}
+
+.asset-timeslots {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    background: #f8f5e9;
+    border: 1px solid #f8f5e9;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+.asset-timeslots:hover {
+  border: 1px solid #88c74e;
+  background: rgba(136,199,78,0.1);
+  cursor: pointer;
+}
+#select-date legend {
+    position: relative;
+    padding-left: 40px;
+    background: #f8f5e9;
+    border: 1px solid #f8f5e9;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+
+#select-date legend:hover {
+  /* border: 1px solid #88c74e; */
+  /* background: rgba(136,199,78,0.1); */
+  cursor: pointer;
+}
+
+.time.available {
+margin-bottom: 10px;
+border: 1px solid #88c74e;
+padding: 10px;
+}
+
+.time.available.selected {
+  background: rgba(136,199,78,0.1);
+}

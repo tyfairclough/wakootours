@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/**
+ * @copyright	Copyright © 2018 - All rights reserved.
+ * @license		GNU General Public License v2.0
+ * @generator	http://xdsoft/joomla-module-generator/
+ */
+-->
+<extension type="module" method="upgrade" client="site">
+	<name>MODULE_MODERN_LOCATIONS</name>
+	<creationDate>January 2019</creationDate>
+	<author>Jonas Jovaišas</author>
+	<authorEmail>jonasjov2@gmail.com</authorEmail>
+	<authorUrl>http://www.modernjoomla.com</authorUrl>
+	<copyright>Copyright © 2018 - All rights reserved.</copyright>
+	<license>GNU General Public License v2.0</license>
+	<version>1.0.0</version>
+	<description>MODULE_MODERN_LOCATIONS_DESCRIPTION</description>
+	<files>
+		<filename module="mod_modern_locations">mod_modern_locations.php</filename>
+		<filename>mod_modern_locations.xml</filename>
+		<filename>functions.php</filename>
+		<filename>mod_modern_locations.ini</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>assets</folder>
+	</files>
+	<config>
+		<fields name="params">
+
+			<fieldset name="display_options" label="MODULE_DISPLAY_OPTIONS">
+				<field
+						name="show_title"
+						type="list"
+						default="1"
+						label="MODULE_SHOW_TITLE">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="show_description"
+						type="list"
+						default="1"
+						label="MODULE_SHOW_DESCRIPTION">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="show_button"
+						type="list"
+						default="1"
+						label="MODULE_SHOW_BUTTON">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="align"
+						type="list"
+						default="left"
+						label="MODULE_ALIGN">
+					<option value="left">Left</option>
+					<option value="center">Center</option>
+					<option value="right">Right</option>
+				</field>
+
+			</fieldset>
+
+			<fieldset name="column_options" label="MODULE_COLUMN_OPTIONS">
+				<field
+						name="col_lg"
+						type="list"
+						label="COM_MODERN_TOURS_ASSET_LG_COLUMNS"
+						description="COM_MODERN_TOURS_ASSET_LG_COLUMNS_DESC">
+					<option value="col-lg-2">COM_MODERN_TOURS_COLUMNS_2</option>
+					<option value="col-lg-3">COM_MODERN_TOURS_COLUMNS_3</option>
+					<option value="col-lg-4">COM_MODERN_TOURS_COLUMNS_4</option>
+					<option	value="col-lg-6">COM_MODERN_TOURS_COLUMNS_6</option>
+					<option	value="col-lg-12">COM_MODERN_TOURS_COLUMNS_12</option>
+				</field>
+
+				<field
+						name="col_md"
+						type="list"
+						label="COM_MODERN_TOURS_ASSET_MD_COLUMNS"
+						description="COM_MODERN_TOURS_ASSET_MD_COLUMNS_DESC">
+					<option value="col-md-2">COM_MODERN_TOURS_COLUMNS_2</option>
+					<option value="col-md-3">COM_MODERN_TOURS_COLUMNS_3</option>
+					<option value="col-md-4">COM_MODERN_TOURS_COLUMNS_4</option>
+					<option	value="col-md-6">COM_MODERN_TOURS_COLUMNS_6</option>
+					<option	value="col-md-12">COM_MODERN_TOURS_COLUMNS_12</option>
+				</field>
+
+				<field
+						name="col_sm"
+						type="list"
+						label="COM_MODERN_TOURS_ASSET_SM_COLUMNS"
+						description="COM_MODERN_TOURS_ASSET_SM_COLUMNS_DESC">
+					<option value="col-sm-2">COM_MODERN_TOURS_COLUMNS_2</option>
+					<option value="col-sm-3">COM_MODERN_TOURS_COLUMNS_3</option>
+					<option value="col-sm-4">COM_MODERN_TOURS_COLUMNS_4</option>
+					<option	value="col-sm-6">COM_MODERN_TOURS_COLUMNS_6</option>
+					<option	value="col-sm-12">COM_MODERN_TOURS_COLUMNS_12</option>
+				</field>
+
+				<field
+						name="col_xs"
+						type="list"
+						label="COM_MODERN_TOURS_ASSET_XS_COLUMNS"
+						description="COM_MODERN_TOURS_ASSET_XS_COLUMNS_DESC">
+					<option value="col-2">COM_MODERN_TOURS_COLUMNS_2</option>
+					<option value="col-3">COM_MODERN_TOURS_COLUMNS_3</option>
+					<option value="col-4">COM_MODERN_TOURS_COLUMNS_4</option>
+					<option	value="col-6">COM_MODERN_TOURS_COLUMNS_6</option>
+					<option	value="col-12">COM_MODERN_TOURS_COLUMNS_12</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="slider_options" label="MODULE_SLIDER_OPTIONS">
+
+				<field
+						name="create_slider"
+						type="list"
+						default="1"
+						label="MODULE_CREATE_SLIDER">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="items"
+						type="list"
+						default="1"
+						label="MODULE_ITEMS">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</field>
+
+				<field
+						name="nav"
+						type="list"
+						default="1"
+						label="MODULE_NAVIGATION">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="autoplay"
+						type="list"
+						default="1"
+						label="MODULE_AUTOPLAY">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="loop"
+						type="list"
+						default="1"
+						label="MODULE_LOOP">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="margin"
+						type="text"
+						default="10"
+						label="MODULE_MARGIN"
+				/>
+
+			</fieldset>
+
+			<fieldset name="basic">
+				<field
+						name="load_from"
+						type="list"
+						default="category"
+						label="MODULE_ASSET_SOURCE">
+					<option value="all_categories">MODULE_SELECT_ALL_CATEGORIES</option>
+					<option value="all_locations">MODULE_SELECT_ALL_LOCATIONS</option>
+					<option value="locations">MODULE_SELECT_LOCATIONS</option>
+					<option value="categories">MODULE_SELECT_CATEGORIES</option>
+				</field>
+
+				<field
+						name="categories"
+						multiple="multiple"
+						type="sql"
+						default="10"
+						label="MODULE_SELECT_CATEGORIES"
+						query="SELECT alias, title FROM #__modern_tours_categories WHERE state = 1"
+						key_field="alias"
+						value_field="title"
+				/>
+
+				<field
+						name="locations"
+						multiple="multiple"
+						type="sql"
+						default="10"
+						label="MODULE_SELECT_LOCATIONS"
+						query="SELECT alias, title FROM #__modern_tours_locations WHERE state = 1"
+						key_field="alias"
+						value_field="title"
+				/>
+
+				<field
+						name="list_ordering"
+						type="list"
+						label="COM_MODERN_TOURS_ASSET_ORDERING"
+						description="COM_MODERN_TOURS_ASSET_ORDERING_DESC">
+					<option value="newest">COM_MODERN_TOURS_NEWEST</option>
+					<option value="oldest">COM_MODERN_TOURS_OLDEST</option>
+					<option value="order">COM_MODERN_TOURS_ORDERING</option>
+					<option	value="rorder">COM_MODERN_TOURS_RORDERING</option>
+					<option	value="random">COM_MODERN_TOURS_RANDOM</option>
+				</field>
+
+				<field
+					name="max_items"
+					type="number"
+					label="MODULE_MAX_ITEMS"
+					default="10"
+				/>
+
+			</fieldset>
+
+			<fieldset
+				name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea" rows="3"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+
+				<field name="language" type="language" client="site" default="en-GB" label="SELECT_LANGUAGE" description="" />
+
+			</fieldset>
+</fields>
+</config>
+</extension>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field name="id" type="text" readonly="true" class="readonly" default="0" description="JGLOBAL_FIELD_ID_DESC"/>
+    <field name="ordering"/>
+    <field name="status" default="1" type="list" label="JSTATUS" description="JFIELD_PUBLISHED_DESC" class="inputbox" size="1">
+      <option value="paid">PAID</option>
+      <option value="reserved">RESERVED</option>
+      <option value="partially_paid">PARTIALLY_PAID</option>
+      <option value="waiting">WAITING</option>
+      <option value="canceled">CANCELED</option>
+    </field>
+    <field
+            name="state"
+            type="list"
+            label="JSTATUS"
+            description="COM_MODERN_TOURS_ASSET_STATE"
+            class="chzn-color-state"
+            size="1"
+            default="1"
+    >
+      <option value="1">JPUBLISHED</option>
+      <option value="0">JUNPUBLISHED</option>
+      <option value="2">JARCHIVED</option>
+      <option value="-2">JTRASHED</option>
+    </field>
+    <field name="checked_out" type="hidden" filter="unset"/>
+    <field name="checked_out_time" default="0000-00-00 00:00:00" type="hidden" filter="unset"/>
+    <field name="created_by" type="createdby" default="0" label="COM_MODERN_TOURS_FORM_LBL_ASSET_CREATED_BY" description="COM_MODERN_TOURS_FORM_DESC_ASSET_CREATED_BY" hidden="true" hint="COM_MODERN_TOURS_FORM_LBL_ASSET_CREATED_BY"/>
+    <field name="modified_by" type="modifiedby" default="0" label="COM_MODERN_TOURS_FORM_LBL_ASSET_MODIFIED_BY" description="COM_MODERN_TOURS_FORM_DESC_ASSET_MODIFIED_BY" hidden="true" hint="COM_MODERN_TOURS_FORM_LBL_ASSET_MODIFIED_BY"/>
+    <field name="reviews_id" label="COM_MODERN_TOURS_FORM_LBL_ASSET_REVIEWS_ID" description="COM_MODERN_TOURS_FORM_DESC_ASSET_REVIEWS_ID" hidden="true" hint="COM_MODERN_TOURS_FORM_LBL_ASSET_REVIEWS_ID"/>
+    <field name="title" required="true" type="text" label="COM_MODERN_TOURS_FORM_LBL_ASSET_TITLE" description="COM_MODERN_TOURS_FORM_DESC_ASSET_TITLE" hint="COM_MODERN_TOURS_FORM_LBL_ASSET_TITLE"/>
+    <field name="alias" type="text" label="COM_MODERN_TOURS_FORM_LBL_ASSET_ALIAS" description="COM_MODERN_TOURS_FORM_DESC_ASSET_ALIAS"/>
+    <field name="description" editor="|" buttons="false" filter="JComponentHelper::filterText" type="editor" label="COM_MODERN_TOURS_FORM_LBL_ASSET_DESCRIPTION" description="COM_MODERN_TOURS_FORM_DESC_ASSET_DESCRIPTION" hint="COM_MODERN_TOURS_FORM_LBL_ASSET_DESCRIPTION"/>
+    <field name="small_description" editor="|" buttons="false" filter="JComponentHelper::filterText" type="editor" label="COM_MODERN_TOURS_FORM_LBL_ASSET_SMALL_DESCRIPTION" description="COM_MODERN_TOURS_FORM_DESC_ASSET_SMALL_DESCRIPTION" hint="COM_MODERN_TOURS_FORM_LBL_ASSET_SMALL_DESCRIPTION"/>
+    <field name="category" sql_select="id, title"  sql_where ="state=1" sql_from="#__modern_tours_categories" key_field="id" value_field="title" type="sql" label="COM_MODERN_TOURS_FORM_LBL_ASSET_CATEGORY" description="COM_MODERN_TOURS_FORM_DESC_ASSET_CATEGORY" hint="COM_MODERN_TOURS_FORM_LBL_ASSET_CATEGORY"/>
+    <field name="location" sql_select="id, title" sql_where ="state=1" sql_from="#__modern_tours_locations" key_field="id" value_field="title" type="sql" label="COM_MODERN_TOURS_FORM_LBL_ASSET_LOCATION" description="COM_MODERN_TOURS_FORM_DESC_ASSET_LOCATION" hint="COM_MODERN_TOURS_FORM_LBL_ASSET_LOCATION"/>
+    <field name="max_people" default="100" filter="safehtml" type="number" min="1" required="true" message="Please enter max people" label="COM_MODERN_TOURS_FORM_LBL_ASSET_MAX_PEOPLE" description="COM_MODERN_TOURS_FORM_DESC_ASSET_MAX_PEOPLE" hint="COM_MODERN_TOURS_FORM_LBL_ASSET_MAX_PEOPLE"/>
+    <field name="parameters" type="editor" buttons="true" class="inputbox" filter="safehtml" label="COM_MODERN_TOURS_FORM_LBL_ASSET_PARAMETERS" description="COM_MODERN_TOURS_FORM_DESC_ASSET_PARAMETERS" hidden="true" hint="COM_MODERN_TOURS_FORM_LBL_ASSET_PARAMETERS"/>
+    <field name="cover" type="media" label="COM_MODERN_TOURS_COVER" required="true" />
+    <field name="imageFiles" type="hidden"/>
+    <field name="adults" type="hidden"/>
+    <field name="children" type="hidden"/>
+    <field name="times" type="hidden"/>
+    <field name="bandates" type="hidden"/>
+    <field name="related" multiple="true" sql_select="alias, title" sql_from="#__modern_tours_assets" key_field="alias" value_field="title" type="sql" label="RELATED_ASSETS">
+      <option>SELECT_RELATED_ASSETS</option>
+    </field>
+    <field name="language" type="language" client="site" default="en-GB" label="SELECT_LANGUAGE" description="" />
+  </fieldset>
+
+  <fields name="params">
+    <fieldset name="params">
+      <field
+        name="deposit_booking"
+        type="list"
+        label="DEPOSIT_BOOKING_LABEL"
+        description="DEPOSIT_BOOKING_DESC"
+        useglobal="true">
+        <option value="1">JYES</option>
+        <option value="0">JNO</option>
+      </field>
+
+      <field
+        name="deposit_booking_choose"
+        type="list"
+        label="DEPOSIT_BOOKING_CHOOSE"
+        description="DEPOSIT_BOOKING_CHOOSE_DESC"
+        useglobal="true">
+        <option value="1">JYES</option>
+        <option value="0">JNO</option>
+      </field>
+
+      <field
+        name="deposit_percentage"
+        type="text"
+        label="DEPOSIT_PERCENTAGE"
+        description="DEPOSIT_PERCENTAGE_DESC"
+        useglobal="true"
+      />
+      <field name="itirenary" type="text" label="Itirenary"/>
+      <field name="itirenary" type="text" label="COM_ITIRENARY"/>
+      <field name="departure" type="text" label="COM_DEPARTURE"/>
+      <field name="destination" type="text" label="COM_DESTINATION"/>
+      <field
+              name="cover_slider"
+              type="list"
+              label="COVER_SLIDER"
+              description="COVER_SLIDER_DESC">
+        <option value="1">JYES</option>
+        <option value="0">JNO</option>
+      </field>
+      <field name="image1" type="media" label="COM_CAROUSEL_IMAGE"/>
+      <field name="image2" type="media" label="COM_CAROUSEL_IMAGE"/>
+      <field name="image3" type="media" label="COM_CAROUSEL_IMAGE"/>
+      <field name="image4" type="media" label="COM_CAROUSEL_IMAGE"/>
+      <field name="image5" type="media" label="COM_CAROUSEL_IMAGE"/>
+      <field name="availability" type="text" label="COM_AVAILABLITY"/>
+      <field name="arrive" type="text" label="COM_ARRIVE"/>
+      <field name="length" type="text" label="COM_LENGTH"/>
+      <field name="duration" type="number" label="COM_DURATION" description="COM_DURATION_DESC"/>
+      <field name="map" type="text" label="COM_MAP"/>
+      <field name="additional" type="hidden"/>
+      <field name="user_data_fields" sql_where="user_fields = 1" sql_select="id, title" sql_from="#__modern_tours_forms" key_field="id" value_field="title" type="sql" label="USER_DATA_FIELDS" useglobal="true"/>
+      <field name="travellers_data_fields" sql_where="user_fields = 0" sql_select="id, title" sql_from="#__modern_tours_forms" key_field="id" value_field="title" type="sql" label="TRAVELLERS_DATA_FIELDS" useglobal="true"/>
+      <field name="email_fields" sql_where="user_fields = 2" sql_select="id, title" sql_from="#__modern_tours_forms" key_field="id" value_field="title" type="sql" label="EMAIL_FIELDS" useglobal="true"/>
+      <field type="color" name="color" label="TOUR_COLORS" useglobal="true"/>
+      <field name="import_note" type="note" class="alert alert-info" label="IMPORT_BOOKING_NOTE_TITLE" description="IMPORT_BOOKING_NOTE_DESC" />
+      <field name="import_booking" multiple="true" sql_select="alias, title" sql_from="#__modern_tours_assets" key_field="alias" value_field="title" type="sql" label=""/>
+      <field name="from-month" type="list">
+        <option value="">SELECT_MONTH</option>
+        <option value="1">JANUARY</option>
+        <option value="2">FEBRUARY</option>
+        <option value="3">MARCH</option>
+        <option value="4">APRIL</option>
+        <option value="5">MAY</option>
+        <option value="6">JUNE</option>
+        <option value="7">JULY</option>
+        <option value="8">AUGUST</option>
+        <option value="9">SEPTEMBER</option>
+        <option value="10">OCTOBER</option>
+        <option value="11">NOVEMBER</option>
+        <option value="12">DECEMBER</option>
+      </field>
+      <field name="from-day" type="select">
+        <option value="">SELECT_DAY</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+      </field>
+
+      <field name="to-month" type="list">
+        <option value="">SELECT_MONTH</option>
+        <option value="1">JANUARY</option>
+        <option value="2">FEBRUARY</option>
+        <option value="3">MARCH</option>
+        <option value="4">APRIL</option>
+        <option value="5">MAY</option>
+        <option value="6">JUNE</option>
+        <option value="7">JULY</option>
+        <option value="8">AUGUST</option>
+        <option value="9">SEPTEMBER</option>
+        <option value="10">OCTOBER</option>
+        <option value="11">NOVEMBER</option>
+        <option value="12">DECEMBER</option>
+      </field>
+      <field name="to-day" type="select">
+        <option value="">SELECT_DAY</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+      </field>
+
+      <field name="date" class="date-with-desc" type="text" label="DATE_LABEL" description="DATE_DESC"/>
+    </fieldset>
+  </fields>
+
+</form>

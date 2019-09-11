@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/**
+ * @copyright	Copyright © 2018 - All rights reserved.
+ * @license		GNU General Public License v2.0
+ * @generator	http://xdsoft/joomla-module-generator/
+ */
+-->
+<extension type="module" method="upgrade" client="site">
+    <name>Tour search toolbar</name>
+    <creationDate>Sep 2018</creationDate>
+    <author>Jonas Jovaišas</author>
+    <authorEmail>jonasjov2@gmail.com</authorEmail>
+    <authorUrl>http://www.modernjoomla.com</authorUrl>
+    <copyright>Copyright © 2019 - All rights reserved.</copyright>
+    <license>GNU General Public License v2.0</license>
+    <version>1.0.0</version>
+    <description>MOD_TOUR_SEARCH_BAR_DESCRIPTION</description>
+    <files>
+        <filename module="mod_tour_search_bar">mod_tour_search_bar.php</filename>
+        <filename>mod_tour_search_bar.xml</filename>
+        <filename>mod_tour_search_bar.ini</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset
+                    name="advanced">
+                <field
+                        name="layout"
+                        type="modulelayout"
+                        label="JFIELD_ALT_LAYOUT_LABEL"
+                        description="JFIELD_ALT_MODULE_LAYOUT_DESC"/>
+
+                <field
+                        name="moduleclass_sfx"
+                        type="textarea" rows="3"
+                        label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                        description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"/>
+
+                <field
+                        name="cache"
+                        type="list"
+                        default="1"
+                        label="COM_MODULES_FIELD_CACHING_LABEL"
+                        description="COM_MODULES_FIELD_CACHING_DESC">
+                    <option
+                            value="1">JGLOBAL_USE_GLOBAL
+                    </option>
+                    <option
+                            value="0">COM_MODULES_FIELD_VALUE_NOCACHING
+                    </option>
+                </field>
+
+                <field
+                        name="cache_time"
+                        type="text"
+                        default="900"
+                        label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                        description="COM_MODULES_FIELD_CACHE_TIME_DESC"/>
+                <field
+                        name="cachemode"
+                        type="hidden"
+                        default="static">
+                    <option
+                            value="static"></option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

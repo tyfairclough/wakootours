@@ -1,0 +1,10 @@
+diff a/media/com_modern_booking/js/functions.js b/media/com_modern_booking/js/functions.js	(rejected hunks)
+@@ -215,7 +215,7 @@
+             if(sloten != 1 && display_slots != 1) {
+                 $('.slts').hide();
+             }
+-            $('.slts.full').parent().addClass('unavailable').find('.hours').html(reserved_slot);
++            $('.slts.full').parent().addClass('unavailable').find('.hours');
+         }
+ 
+         $.sum = function () {

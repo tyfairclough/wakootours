@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_MODERN_TOURS_TITLE_ITEM_VIEW_LOCATION" option="View">
+        <message>
+                        <![CDATA[COM_MODERN_TOURS_TITLE_ITEM_VIEW_LOCATION_DESC]]>
+        </message>
+    </layout>
+    <!-- Add fields to the request variables for the layout. -->
+    <fields name="request">
+        <fieldset name="request">
+            <field
+                    name="alias"
+                    query="SELECT `title`, `alias` FROM #__modern_tours_locations WHERE state = 1 ORDER BY `id`"
+                    type="sql"
+                    key_field="alias"
+                    value_field="title"
+                    label="COM_MODERN_TOURS_ITEM_ID_SELECT_LABEL"
+                    require="true"
+                    description="JGLOBAL_SHOW_TITLE_DESC">
+            </field>
+        </fieldset>
+    </fields>
+
+    <fields name="params">
+        <fieldset name="params" label="PARAMETERS">
+            <field
+                    name="orderby"
+                    type="list"
+                    label="COM_MODERN_TOURS_ASSET_ORDERING"
+                    description="COM_MODERN_TOURS_ASSET_ORDERING_DESC"
+                    useglobal="true"
+            >
+                <option value="newest">COM_MODERN_TOURS_NEWEST</option>
+                <option value="oldest">COM_MODERN_TOURS_OLDEST</option>
+                <option value="order">COM_MODERN_TOURS_ORDERING</option>
+                <option	value="rorder">COM_MODERN_TOURS_RORDERING</option>
+                <option	value="random">COM_MODERN_TOURS_RANDOM</option>
+            </field>
+
+
+            <field
+                    name="col_lg"
+                    type="list"
+                    label="COM_MODERN_TOURS_ASSET_LG_COLUMNS"
+                    description="COM_MODERN_TOURS_ASSET_LG_COLUMNS_DESC"
+                    useglobal="true">
+                <option value="col-lg-2">COM_MODERN_TOURS_COLUMNS_2</option>
+                <option value="col-lg-3">COM_MODERN_TOURS_COLUMNS_3</option>
+                <option value="col-lg-4">COM_MODERN_TOURS_COLUMNS_4</option>
+                <option	value="col-lg-6">COM_MODERN_TOURS_COLUMNS_6</option>
+                <option	value="col-lg-12">COM_MODERN_TOURS_COLUMNS_12</option>
+            </field>
+
+            <field
+                    name="col_md"
+                    type="list"
+                    label="COM_MODERN_TOURS_ASSET_MD_COLUMNS"
+                    description="COM_MODERN_TOURS_ASSET_MD_COLUMNS_DESC"
+                    useglobal="true">
+                <option value="col-md-2">COM_MODERN_TOURS_COLUMNS_2</option>
+                <option value="col-md-3">COM_MODERN_TOURS_COLUMNS_3</option>
+                <option value="col-md-4">COM_MODERN_TOURS_COLUMNS_4</option>
+                <option	value="col-md-6">COM_MODERN_TOURS_COLUMNS_6</option>
+                <option	value="col-md-12">COM_MODERN_TOURS_COLUMNS_12</option>
+            </field>
+
+            <field
+                    name="col_sm"
+                    type="list"
+                    label="COM_MODERN_TOURS_ASSET_SM_COLUMNS"
+                    description="COM_MODERN_TOURS_ASSET_SM_COLUMNS_DESC"
+                    useglobal="true">
+                <option value="col-sm-2">COM_MODERN_TOURS_COLUMNS_2</option>
+                <option value="col-sm-3">COM_MODERN_TOURS_COLUMNS_3</option>
+                <option value="col-sm-4">COM_MODERN_TOURS_COLUMNS_4</option>
+                <option	value="col-sm-6">COM_MODERN_TOURS_COLUMNS_6</option>
+                <option	value="col-sm-12">COM_MODERN_TOURS_COLUMNS_12</option>
+            </field>
+
+            <field
+                    name="col_xs"
+                    type="list"
+                    label="COM_MODERN_TOURS_ASSET_XS_COLUMNS"
+                    description="COM_MODERN_TOURS_ASSET_XS_COLUMNS_DESC"
+                    useglobal="true">
+                <option value="col-2">COM_MODERN_TOURS_COLUMNS_2</option>
+                <option value="col-3">COM_MODERN_TOURS_COLUMNS_3</option>
+                <option value="col-4">COM_MODERN_TOURS_COLUMNS_4</option>
+                <option	value="col-6">COM_MODERN_TOURS_COLUMNS_6</option>
+                <option	value="col-12">COM_MODERN_TOURS_COLUMNS_12</option>
+            </field>
+
+            <field
+                    name="list_style"
+                    type="list"
+                    label="COM_MODERN_TOURS_ASSET_STYLE"
+                    description="COM_MODERN_TOURS_ASSET_STYLE_DESC"
+                    useglobal="true">
+                <option value="column">COLUMN</option>
+                <option value="column_minimal">COLUMN_STYLE2</option>
+                <option value="list">LIST_STYLE</option>
+            </field>
+
+        </fieldset>
+    </fields>
+</metadata>

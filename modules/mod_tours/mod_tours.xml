@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/**
+ * @copyright	Copyright © 2018 - All rights reserved.
+ * @license		GNU General Public License v2.0
+ * @generator	http://xdsoft/joomla-module-generator/
+ */
+-->
+<extension type="module" method="upgrade" client="site">
+	<name>Tour display</name>
+	<creationDate>Sep 2018</creationDate>
+	<author>Jonas Jovaišas</author>
+	<authorEmail>jonasjov2@gmail.com</authorEmail>
+	<authorUrl>http://www.modernjoomla.com</authorUrl>
+	<copyright>Copyright © 2018 - All rights reserved.</copyright>
+	<license>GNU General Public License v2.0</license>
+	<version>1.0.0</version>
+	<description>MOD_TOURS_DESCRIPTION</description>
+	<files>
+		<filename module="mod_tours">mod_tours.php</filename>
+		<filename>mod_tours.xml</filename>
+		<filename>index.html</filename>
+		<filename>functions.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+
+			<fieldset name="display_options" label="MODULE_DISPLAY_OPTIONS">
+				<field
+						name="truncate_title"
+						type="text"
+						default=""
+						label="MODULE_TITLE_TRUNCATE"
+				/>
+
+				<field
+						name="truncate_description"
+						type="text"
+						default=""
+						label="MODULE_DESCRIPTION_TRUNCATE"
+				/>
+
+				<field
+						name="show_title"
+						type="list"
+						default="1"
+						label="MODULE_SHOW_TITLE">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="show_details"
+						type="list"
+						default="1"
+						label="MODULE_SHOW_DETAILS">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="show_price"
+						type="list"
+						default="1"
+						label="MODULE_SHOW_PRICE">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="show_description"
+						type="list"
+						default="1"
+						label="MODULE_SHOW_DESCRIPTION">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="show_review"
+						type="list"
+						default="1"
+						label="MODULE_SHOW_REVIEW">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="show_button"
+						type="list"
+						default="1"
+						label="MODULE_SHOW_BUTTON">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+						name="align"
+						type="list"
+						default="left"
+						label="MODULE_ALIGN">
+					<option value="left">Left</option>
+					<option value="center">Center</option>
+					<option value="right">Right</option>
+				</field>
+			</fieldset>
+
+
+			<fieldset name="column_options" label="MODULE_COLUMN_OPTIONS">
+				<field
+						name="col_lg"
+						type="list"
+						label="COM_MODERN_TOURS_ASSET_LG_COLUMNS"
+						description="COM_MODERN_TOURS_ASSET_LG_COLUMNS_DESC">
+					<option value="col-lg-2">COM_MODERN_TOURS_COLUMNS_2</option>
+					<option value="col-lg-3">COM_MODERN_TOURS_COLUMNS_3</option>
+					<option value="col-lg-4">COM_MODERN_TOURS_COLUMNS_4</option>
+					<option	value="col-lg-6">COM_MODERN_TOURS_COLUMNS_6</option>
+					<option	value="col-lg-12">COM_MODERN_TOURS_COLUMNS_12</option>
+				</field>
+
+				<field
+						name="col_md"
+						type="list"
+						label="COM_MODERN_TOURS_ASSET_MD_COLUMNS"
+						description="COM_MODERN_TOURS_ASSET_MD_COLUMNS_DESC">
+					<option value="col-md-2">COM_MODERN_TOURS_COLUMNS_2</option>
+					<option value="col-md-3">COM_MODERN_TOURS_COLUMNS_3</option>
+					<option value="col-md-4">COM_MODERN_TOURS_COLUMNS_4</option>
+					<option	value="col-md-6">COM_MODERN_TOURS_COLUMNS_6</option>
+					<option	value="col-md-12">COM_MODERN_TOURS_COLUMNS_12</option>
+				</field>
+
+				<field
+						name="col_sm"
+						type="list"
+						label="COM_MODERN_TOURS_ASSET_SM_COLUMNS"
+						description="COM_MODERN_TOURS_ASSET_SM_COLUMNS_DESC">
+					<option value="col-sm-2">COM_MODERN_TOURS_COLUMNS_2</option>
+					<option value="col-sm-3">COM_MODERN_TOURS_COLUMNS_3</option>
+					<option value="col-sm-4">COM_MODERN_TOURS_COLUMNS_4</option>
+					<option	value="col-sm-6">COM_MODERN_TOURS_COLUMNS_6</option>
+					<option	value="col-sm-12">COM_MODERN_TOURS_COLUMNS_12</option>
+				</field>
+
+				<field
+						name="col_xs"
+						type="list"
+						label="COM_MODERN_TOURS_ASSET_XS_COLUMNS"
+						description="COM_MODERN_TOURS_ASSET_XS_COLUMNS_DESC">
+					<option value="col-2">COM_MODERN_TOURS_COLUMNS_2</option>
+					<option value="col-3">COM_MODERN_TOURS_COLUMNS_3</option>
+					<option value="col-4">COM_MODERN_TOURS_COLUMNS_4</option>
+					<option	value="col-6">COM_MODERN_TOURS_COLUMNS_6</option>
+					<option	value="col-12">COM_MODERN_TOURS_COLUMNS_12</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="basic">
+
+				<field
+						name="load_from"
+						type="list"
+						default="category"
+						label="MODULE_ASSET_SOURCE">
+					<option value="select">MODULE_SELECT_ASSETS</option>
+					<option value="categories">MODULE_LOAD_FROM_CATEGORY</option>
+					<option value="locations">MODULE_LOAD_FROM_LOCATION</option>
+				</field>
+
+				<field
+						name="categories"
+						type="sql"
+						default="10"
+						label="MODULE_SELECT_CATEGORY"
+						query="SELECT alias, title FROM #__modern_tours_categories WHERE state=1"
+						key_field="alias"
+						value_field="title"
+				/>
+
+				<field
+						name="locations"
+						type="sql"
+						default="10"
+						label="MODULE_SELECT_LOCATION"
+						query="SELECT alias, title FROM #__modern_tours_locations WHERE state=1"
+						key_field="alias"
+						value_field="title"
+				/>
+
+				<field
+					   name="aliases"
+					   multiple="multiple"
+					   type="sql"
+					   default="10"
+					   label="MODULE_SELECT_ASSET"
+					   query="SELECT alias, title FROM #__modern_tours_assets"
+					   key_field="alias"
+					   value_field="title"
+				/>
+
+				<field
+						name="list_ordering"
+						type="list"
+						label="COM_MODERN_TOURS_ASSET_ORDERING"
+						description="COM_MODERN_TOURS_ASSET_ORDERING_DESC">
+					<option value="newest">COM_MODERN_TOURS_NEWEST</option>
+					<option value="oldest">COM_MODERN_TOURS_OLDEST</option>
+					<option value="order">COM_MODERN_TOURS_ORDERING</option>
+					<option	value="rorder">COM_MODERN_TOURS_RORDERING</option>
+					<option	value="random">COM_MODERN_TOURS_RANDOM</option>
+				</field>
+
+				<field
+					name="max_items"
+					type="number"
+					label="MODULE_MAX_ITEMS"
+					default="10"
+				/>
+
+				<field
+						name="template"
+						type="list"
+						default="template"
+						label="MODULE_TEMPLATE">
+					<option value="small_list">MODULE_LIST</option>
+					<option value="column">MODULE_COLUMN_ITEM</option>
+				</field>
+
+			</fieldset>
+
+			<fieldset
+				name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea" rows="3"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+			</fieldset>
+</fields>
+</config>
+</extension>

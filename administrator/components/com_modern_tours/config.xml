@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+    <fieldset
+            name="params"
+            label="TOUR_PARAMETERS">
+        <field name="currency" label="CURRENCY" type="list" default="USD">
+            <option value="USD" selected="selected">United States Dollars</option>
+            <option value="EUR">Euro</option>
+            <option value="GBP">United Kingdom Pounds</option>
+            <option value="DZD">Algeria Dinars</option>
+            <option value="ARP">Argentina Pesos</option>
+            <option value="AUD">Australia Dollars</option>
+            <option value="ATS">Austria Schillings</option>
+            <option value="BSD">Bahamas Dollars</option>
+            <option value="BBD">Barbados Dollars</option>
+            <option value="BEF">Belgium Francs</option>
+            <option value="BMD">Bermuda Dollars</option>
+            <option value="BRR">Brazil Real</option>
+            <option value="BGL">Bulgaria Lev</option>
+            <option value="CAD">Canada Dollars</option>
+            <option value="CLP">Chile Pesos</option>
+            <option value="CNY">China Yuan Renmimbi</option>
+            <option value="CYP">Cyprus Pounds</option>
+            <option value="CSK">Czech Republic Koruna</option>
+            <option value="DKK">Denmark Kroner</option>
+            <option value="NLG">Dutch Guilders</option>
+            <option value="XCD">Eastern Caribbean Dollars</option>
+            <option value="EGP">Egypt Pounds</option>
+            <option value="FJD">Fiji Dollars</option>
+            <option value="FIM">Finland Markka</option>
+            <option value="FRF">France Francs</option>
+            <option value="DEM">Germany Deutsche Marks</option>
+            <option value="XAU">Gold Ounces</option>
+            <option value="GRD">Greece Drachmas</option>
+            <option value="HKD">Hong Kong Dollars</option>
+            <option value="HUF">Hungary Forint</option>
+            <option value="ISK">Iceland Krona</option>
+            <option value="INR">India Rupees</option>
+            <option value="IDR">Indonesia Rupiah</option>
+            <option value="IEP">Ireland Punt</option>
+            <option value="ILS">Israel New Shekels</option>
+            <option value="ITL">Italy Lira</option>
+            <option value="JMD">Jamaica Dollars</option>
+            <option value="JPY">Japan Yen</option>
+            <option value="JOD">Jordan Dinar</option>
+            <option value="KRW">Korea (South) Won</option>
+            <option value="LBP">Lebanon Pounds</option>
+            <option value="LUF">Luxembourg Francs</option>
+            <option value="MYR">Malaysia Ringgit</option>
+            <option value="MXP">Mexico Pesos</option>
+            <option value="NLG">Netherlands Guilders</option>
+            <option value="NZD">New Zealand Dollars</option>
+            <option value="NOK">Norway Kroner</option>
+            <option value="PKR">Pakistan Rupees</option>
+            <option value="XPD">Palladium Ounces</option>
+            <option value="PHP">Philippines Pesos</option>
+            <option value="XPT">Platinum Ounces</option>
+            <option value="PLZ">Poland Zloty</option>
+            <option value="PTE">Portugal Escudo</option>
+            <option value="ROL">Romania Leu</option>
+            <option value="RUR">Russia Rubles</option>
+            <option value="SAR">Saudi Arabia Riyal</option>
+            <option value="XAG">Silver Ounces</option>
+            <option value="SGD">Singapore Dollars</option>
+            <option value="SKK">Slovakia Koruna</option>
+            <option value="ZAR">South Africa Rand</option>
+            <option value="KRW">South Korea Won</option>
+            <option value="ESP">Spain Pesetas</option>
+            <option value="XDR">Special Drawing Right (IMF)</option>
+            <option value="SDD">Sudan Dinar</option>
+            <option value="SEK">Sweden Krona</option>
+            <option value="CHF">Switzerland Francs</option>
+            <option value="TWD">Taiwan Dollars</option>
+            <option value="THB">Thailand Baht</option>
+            <option value="TTD">Trinidad and Tobago Dollars</option>
+            <option value="TRL">Turkey Lira</option>
+            <option value="VEB">Venezuela Bolivar</option>
+            <option value="ZMK">Zambia Kwacha</option>
+            <option value="XCD">Eastern Caribbean Dollars</option>
+            <option value="XDR">Special Drawing Right (IMF)</option>
+            <option value="XAG">Silver Ounces</option>
+            <option value="XAU">Gold Ounces</option>
+            <option value="XPD">Palladium Ounces</option>
+            <option value="XPT">Platinum Ounces</option>
+        </field>
+
+        <field name="show_cover" type="list" label="SHOW_COVER" description="SHOW_COVER_DESC" default="1">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field name="full_width_cover" type="list" label="FULL_WIDTH_COVER" description="FULL_WIDTH_COVER_DESC" default="1">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field name="status" type="list" label="STATUS" description="STATUS_DESC" default="reserved">
+            <option value="paid">PAID</option>
+            <option value="reserved">RESERVED</option>
+            <option value="waiting">WAITING</option>
+        </field>
+
+        <field name="cash_status" type="list" label="CASH_STATUS" description="CASH_STATUS_DESC" default="reserved">
+            <option value="paid">PAID</option>
+            <option value="reserved">RESERVED</option>
+            <option value="waiting">WAITING</option>
+        </field>
+
+        <field name="cash_payment" type="list" label="SHOW_CASH_PAYMENT" default="1">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+            type="text"
+            name="admin_email"
+            label="ADMIN_EMAIL"
+            description="ADMIN_EMAIL_DESC"
+        />
+
+        <!--<field-->
+            <!--type="text"-->
+            <!--name="api_key"-->
+            <!--label="GOOGLE_API"-->
+        <!--/>-->
+
+    </fieldset>
+
+    <fieldset name="assets_listing" label="ASSET_LISTING">
+
+        <field
+                name="list_style"
+                type="list"
+                label="COM_MODERN_TOURS_ASSET_STYLE"
+                description="COM_MODERN_TOURS_ASSET_STYLE_DESC">
+            <option value="column">COLUMN</option>
+            <option value="list">LIST_STYLE</option>
+        </field>
+
+        <field
+                name="orderby"
+                type="list"
+                label="COM_MODERN_TOURS_ASSET_ORDERING"
+                description="COM_MODERN_TOURS_ASSET_ORDERING_DESC">
+            <option value="newest">COM_MODERN_TOURS_NEWEST</option>
+            <option value="oldest">COM_MODERN_TOURS_OLDEST</option>
+            <option value="order">COM_MODERN_TOURS_ORDERING</option>
+            <option	value="rorder">COM_MODERN_TOURS_RORDERING</option>
+            <option	value="random">COM_MODERN_TOURS_RANDOM</option>
+        </field>
+
+        <field
+                name="col_lg"
+                type="list"
+                label="COM_MODERN_TOURS_ASSET_LG_COLUMNS"
+                description="COM_MODERN_TOURS_ASSET_LG_COLUMNS_DESC"
+                default="col-lg-3">
+            <option value="col-lg-2">COM_MODERN_TOURS_COLUMNS_2</option>
+            <option value="col-lg-3">COM_MODERN_TOURS_COLUMNS_3</option>
+            <option value="col-lg-4">COM_MODERN_TOURS_COLUMNS_4</option>
+            <option	value="col-lg-6">COM_MODERN_TOURS_COLUMNS_6</option>
+            <option	value="col-lg-12">COM_MODERN_TOURS_COLUMNS_12</option>
+        </field>
+
+        <field
+                name="col_md"
+                type="list"
+                label="COM_MODERN_TOURS_ASSET_MD_COLUMNS"
+                description="COM_MODERN_TOURS_ASSET_MD_COLUMNS_DESC"
+                default="col-md-4">
+            <option value="col-md-2">COM_MODERN_TOURS_COLUMNS_2</option>
+            <option value="col-md-3">COM_MODERN_TOURS_COLUMNS_3</option>
+            <option value="col-md-4">COM_MODERN_TOURS_COLUMNS_4</option>
+            <option	value="col-md-6">COM_MODERN_TOURS_COLUMNS_6</option>
+            <option	value="col-md-12">COM_MODERN_TOURS_COLUMNS_12</option>
+        </field>
+
+        <field
+                name="col_sm"
+                type="list"
+                label="COM_MODERN_TOURS_ASSET_SM_COLUMNS"
+                description="COM_MODERN_TOURS_ASSET_SM_COLUMNS_DESC"
+                default="col-sm-6">
+            <option value="col-sm-2">COM_MODERN_TOURS_COLUMNS_2</option>
+            <option value="col-sm-3">COM_MODERN_TOURS_COLUMNS_3</option>
+            <option value="col-sm-4">COM_MODERN_TOURS_COLUMNS_4</option>
+            <option	value="col-sm-6">COM_MODERN_TOURS_COLUMNS_6</option>
+            <option	value="col-sm-12">COM_MODERN_TOURS_COLUMNS_12</option>
+        </field>
+
+        <field
+                name="col_xs"
+                type="list"
+                label="COM_MODERN_TOURS_ASSET_XS_COLUMNS"
+                description="COM_MODERN_TOURS_ASSET_XS_COLUMNS_DESC"
+                default="col-12">
+            <option value="col-2">COM_MODERN_TOURS_COLUMNS_2</option>
+            <option value="col-3">COM_MODERN_TOURS_COLUMNS_3</option>
+            <option value="col-4">COM_MODERN_TOURS_COLUMNS_4</option>
+            <option	value="col-6">COM_MODERN_TOURS_COLUMNS_6</option>
+            <option	value="col-12">COM_MODERN_TOURS_COLUMNS_12</option>
+        </field>
+    </fieldset>
+
+    <fieldset name="list_style_display_options" label="LIST_STYLE_DISPLAY_OPTIONS">
+
+        <field
+                name="show_description"
+                type="list"
+                default="1"
+                label="SHOW_DESCRIPTION_FIELD">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="show_max_people"
+                type="list"
+                default="1"
+                label="SHOW_MAX_PEOPLE_FIELD">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="show_availability"
+                type="list"
+                default="1"
+                label="SHOW_AVAILABILITY_FIELD">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="show_arrival"
+                type="list"
+                default="1"
+                label="SHOW_ARRIVAL_FIELD">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="show_destination"
+                type="list"
+                default="1"
+                label="SHOW_DESTINATION_FIELD">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="show_departure"
+                type="list"
+                default="1"
+                label="SHOW_DEPARTURE_FIELD">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="show_length"
+                type="list"
+                default="1"
+                label="SHOW_LENGTH_FIELD">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+    </fieldset>
+
+
+
+
+
+    <fieldset name="display_options" label="TOUR_DISPLAY_OPTIONS">
+
+        <field
+                name="show_title"
+                type="list"
+                default="1"
+                label="MODULE_SHOW_TITLE">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="show_details"
+                type="list"
+                default="1"
+                label="MODULE_SHOW_DETAILS">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="show_price"
+                type="list"
+                default="1"
+                label="MODULE_SHOW_PRICE">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="show_description"
+                type="list"
+                default="1"
+                label="MODULE_SHOW_DESCRIPTION">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="show_review"
+                type="list"
+                default="1"
+                label="MODULE_SHOW_REVIEW">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="show_button"
+                type="list"
+                default="1"
+                label="MODULE_SHOW_BUTTON">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="align"
+                type="list"
+                default="left"
+                label="MODULE_ALIGN">
+            <option value="left">ALIGN_LEFT</option>
+            <option value="center">ALIGN_CENTER</option>
+            <option value="right">ALIGN_RIGHT</option>
+        </field>
+
+        <field
+                name="truncate_title"
+                type="text"
+                default="0"
+                label="MODULE_TITLE_TRUNCATE"
+                description="MODULE_TITLE_TRUNCATE_DESC"
+        />
+
+        <field
+                name="truncate_description"
+                type="text"
+                default="0"
+                label="MODULE_DESCRIPTION_TRUNCATE"
+                description="MODULE_DESCRIPTION_TRUNCATE_DESC"
+        />
+
+    </fieldset>
+
+
+    <fieldset name="catgories_locations_listing" label="LOCATION_CATEGORIES_LISTING">
+        <field
+                name="list_orderby"
+                type="list"
+                label="COM_MODERN_TOURS_SUB_ASSET_ORDERING"
+                description="COM_MODERN_TOURS_SUB_ASSET_ORDERING_DESC">
+            <option value="newest">COM_MODERN_TOURS_NEWEST</option>
+            <option value="oldest">COM_MODERN_TOURS_OLDEST</option>
+            <option value="order">COM_MODERN_TOURS_ORDERING</option>
+            <option	value="rorder">COM_MODERN_TOURS_RORDERING</option>
+            <option	value="random">COM_MODERN_TOURS_RANDOM</option>
+        </field>
+
+        <field
+                name="list_col_lg"
+                type="list"
+                label="COM_MODERN_TOURS_ASSET_LG_COLUMNS"
+                description="COM_MODERN_TOURS_ASSET_LG_COLUMNS_DESC"
+                default="col-lg-3">
+            <option value="col-lg-2">COM_MODERN_TOURS_COLUMNS_2</option>
+            <option value="col-lg-3">COM_MODERN_TOURS_COLUMNS_3</option>
+            <option value="col-lg-4">COM_MODERN_TOURS_COLUMNS_4</option>
+            <option	value="col-lg-6">COM_MODERN_TOURS_COLUMNS_6</option>
+            <option	value="col-lg-12">COM_MODERN_TOURS_COLUMNS_12</option>
+        </field>
+
+        <field
+                name="list_col_md"
+                type="list"
+                label="COM_MODERN_TOURS_ASSET_MD_COLUMNS"
+                description="COM_MODERN_TOURS_ASSET_MD_COLUMNS_DESC"
+                default="col-md-4">
+            <option value="col-md-2">COM_MODERN_TOURS_COLUMNS_2</option>
+            <option value="col-md-3">COM_MODERN_TOURS_COLUMNS_3</option>
+            <option value="col-md-4">COM_MODERN_TOURS_COLUMNS_4</option>
+            <option	value="col-md-6">COM_MODERN_TOURS_COLUMNS_6</option>
+            <option	value="col-md-12">COM_MODERN_TOURS_COLUMNS_12</option>
+        </field>
+
+        <field
+                name="list_col_sm"
+                type="list"
+                label="COM_MODERN_TOURS_ASSET_SM_COLUMNS"
+                description="COM_MODERN_TOURS_ASSET_SM_COLUMNS_DESC"
+                default="col-sm-6">
+            <option value="col-sm-2">COM_MODERN_TOURS_COLUMNS_2</option>
+            <option value="col-sm-3">COM_MODERN_TOURS_COLUMNS_3</option>
+            <option value="col-sm-4">COM_MODERN_TOURS_COLUMNS_4</option>
+            <option	value="col-sm-6">COM_MODERN_TOURS_COLUMNS_6</option>
+            <option	value="col-sm-12">COM_MODERN_TOURS_COLUMNS_12</option>
+        </field>
+
+        <field
+                name="list_col_xs"
+                type="list"
+                label="COM_MODERN_TOURS_ASSET_XS_COLUMNS"
+                description="COM_MODERN_TOURS_ASSET_XS_COLUMNS_DESC"
+                default="col-12">
+            <option value="col-2">COM_MODERN_TOURS_COLUMNS_2</option>
+            <option value="col-3">COM_MODERN_TOURS_COLUMNS_3</option>
+            <option value="col-4">COM_MODERN_TOURS_COLUMNS_4</option>
+            <option	value="col-6">COM_MODERN_TOURS_COLUMNS_6</option>
+            <option	value="col-12">COM_MODERN_TOURS_COLUMNS_12</option>
+        </field>
+
+    </fieldset>
+
+    <fieldset name="deposit_booking" label="DEPOSIT_BOOKING">
+
+        <field
+                name="deposit_booking"
+                type="list"
+                default="1"
+                label="DEPOSIT_BOOKING_LABEL"
+                description="DEPOSIT_BOOKING_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="deposit_booking_choose"
+                type="list"
+                default="1"
+                label="DEPOSIT_BOOKING_CHOOSE"
+                description="DEPOSIT_BOOKING_CHOOSE_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="deposit_percentage"
+                type="text"
+                default="50"
+                label="DEPOSIT_PERCENTAGE"
+                description="DEPOSIT_PERCENTAGE_DESC"
+        />
+
+    </fieldset>
+
+    <fieldset name="taxes" label="TAXES_OPTIONS">
+
+        <field
+                type="text"
+                name="tax"
+                label="VAT_TAXES"
+                description="VAT_TAXES_DESC"
+                default="19"
+        />
+
+    </fieldset>
+
+
+    <fieldset name="review_options" label="REVIEW_OPTIONS">
+
+        <field name="show_reviews" type="list" label="SHOW_REVIEWS" description="SHOW_REVIEWS_DESC" default="1">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field name="show_empty_reviews" type="list" label="SHOW_EMPTY_REVIEWS" description="SHOW_EMPTY_REVIEWS_DESC" default="0">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field name="show_reviews_cover" type="list" label="SHOW_REVIEWS_COVER" description="SHOW_REVIEWS_COVER_DESC" default="1">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="reviews_link_frontend"
+                type="list"
+                default="1"
+                label="FRONTEND_LEAVE_REVIEW_LINK"
+                description="FRONTEND_LEAVE_REVIEW_LINK_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="guest_reviews"
+                type="list"
+                default="0"
+                label="GUESTS_REVIEWS">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field name="review_status" type="list" label="NEW_USER_REVIEWS" description="NEW_USER_REVIEWS_DESC" default="1">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+    </fieldset>
+
+    <fieldset name="user_email" label="USER_EMAIL">
+        <field
+                name="send_pdf"
+                type="radio"
+                class="btn-group"
+                label="SEND_PDF_INVOICE"
+                default="0">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="send_pdf_cash"
+                type="radio"
+                class="btn-group"
+                label="SEND_PDF_INVOICE_CASH"
+                description="SEND_PDF_INVOICE_CASH_DESC"
+                default="0">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+    </fieldset>
+
+    <fieldset name="fields" label="FIELDS_FIELDSET">
+
+        <field name="user_data_fields" sql_select="id, title" sql_where="user_fields = 1" sql_from="#__modern_tours_forms" key_field="id" value_field="title" type="sql" label="USER_DATA_FIELDS">
+            <option>SELECT_FIELDS</option>
+        </field>
+
+        <field name="travellers_data_fields" sql_select="id, title" sql_where="user_fields = 0" sql_from="#__modern_tours_forms" key_field="id" value_field="title" type="sql" label="TRAVELLERS_DATA_FIELDS">
+            <option>SELECT_FIELDS</option>
+        </field>
+
+        <field name="email_fields" sql_select="id, title" sql_where="user_fields = 2" sql_from="#__modern_tours_forms" key_field="id" value_field="title" type="sql" label="EMAIL_FIELDS">
+            <option>SELECT_FIELDS</option>
+        </field>
+    </fieldset>
+
+    <fieldset name="design" label="DESIGN_SETTINGS">
+        <field type="color" name="color" label="TOUR_COLORS" default=""/>
+
+
+    </fieldset>
+
+    <fieldset
+            name="permissions"
+            description="JCONFIG_PERMISSIONS_DESC"
+            label="JCONFIG_PERMISSIONS_LABEL">
+        <field
+                name="rules" type="rules" component="com_modern_tours"
+                class="inputbox" filter="rules" validate="rules"
+                label="JCONFIG_PERMISSIONS_LABEL"
+                section="component"/>
+    </fieldset>
+</config>

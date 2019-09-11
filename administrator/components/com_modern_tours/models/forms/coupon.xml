@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_MODERN_TOURS_FORM_LBL_COUPON_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_MODERN_TOURS_FORM_LBL_COUPON_CREATED_BY"
+            description="COM_MODERN_TOURS_FORM_DESC_COUPON_CREATED_BY"  /> 
+
+       <field name="title" type="text"
+                
+            label="COM_MODERN_TOURS_FORM_LBL_COUPON_TITLE"
+            description="COM_MODERN_TOURS_FORM_DESC_COUPON_TITLE" 
+                
+                
+                 required="true"  /> 
+
+       <field name="code" type="text"
+                
+            label="COM_MODERN_TOURS_FORM_LBL_COUPON_CODE"
+            description="COM_MODERN_TOURS_FORM_DESC_COUPON_CODE" 
+                
+                
+                 required="true"  /> 
+
+       <field name="start" type="calendar"
+                
+            label="COM_MODERN_TOURS_FORM_LBL_COUPON_START"
+            description="COM_MODERN_TOURS_FORM_DESC_COUPON_START" 
+                
+                
+                 required="true"  /> 
+
+       <field name="end" type="calendar"
+                
+            label="COM_MODERN_TOURS_FORM_LBL_COUPON_END"
+            description="COM_MODERN_TOURS_FORM_DESC_COUPON_END" 
+                
+                
+                 required="true"  /> 
+
+       <field name="couponsnumber" type="text" size="40" class="inputbox"
+
+            label="COM_MODERN_TOURS_FORM_LBL_COUPON_COUPONSNUMBER"
+            description="COM_MODERN_TOURS_FORM_DESC_COUPON_COUPONSNUMBER"
+            filter="safehtml" />
+
+
+       <field name="pricepercent"
+            type="text" size="40"
+            class="inputbox"
+            label="COM_MODERN_TOURS_FORM_LBL_COUPON_PRICEPERCENT"
+            description="COM_MODERN_TOURS_FORM_DESC_COUPON_PRICEPERCENT" 
+            required="true"
+            filter="safehtml" />
+
+       <field name="pricetype"
+            type="radio"
+            default="percentage"
+            label="COM_MODERN_TOURS_FORM_LBL_COUPON_PRICETYPE"
+            description="COM_MODERN_TOURS_FORM_DESC_COUPON_PRICETYPE"
+            class="btn-group"
+            required="true"
+            option_on="Yes"
+            option_off="Yes">
+            <option value="fixed">FIXED</option>
+            <option value="percentage">PERCENTAGE</option>
+        </field> 
+
+ 
+		<field name="filter_pricetype" type="list" default="PERCENTAGE" onchange="this.form.submit();">
+			<option value="">COM_MODERN_TOURS_COUPONS_PRICETYPE_FILTER</option>
+			<option value="FIXED">FIXED</option>
+			<option value="PERCENTAGE">PERCENTAGE</option>
+		</field>
+
+
+        <field name="stage" label="Stage" type="list" default="open">
+            <option value="">Stage</option>
+            <option value="open">Open</option>
+            <option value="paid">Paid</option>
+            <option value="used">Used</option>
+        </field>
+
+        <field
+        name="state"
+        type="list"
+        label="JSTATUS"
+        description="JFIELD_PUBLISHED_DESC"
+        class="inputbox"
+        size="1"
+        default="1">
+        <option value="1">JPUBLISHED</option>
+        <option value="0">JUNPUBLISHED</option>
+        <option value="2">JARCHIVED</option>
+        <option value="-2">JTRASHED</option>
+    </field> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>

@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `#__modern_tours_assets`;
+DROP TABLE IF EXISTS `#__modern_tours_categories`;
+DROP TABLE IF EXISTS `#__modern_tours_coupons`;
+DROP TABLE IF EXISTS `#__modern_tours_emails`;
+DROP TABLE IF EXISTS `#__modern_tours_forms`;
+DROP TABLE IF EXISTS `#__modern_tours_google_calendars`;
+DROP TABLE IF EXISTS `#__modern_tours_invoice`;
+DROP TABLE IF EXISTS `#__modern_tours_locations`;
+DROP TABLE IF EXISTS `#__modern_tours_reservations`;
+DROP TABLE IF EXISTS `#__modern_tours_reviews`;

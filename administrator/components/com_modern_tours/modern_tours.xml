@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_modern_tours</name>
+    <creationDate>2019-01-01</creationDate>
+    <copyright>Copyright (C) 2015. All rights reserved. Unikalus team.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>Jonas Jovaisas</author>
+    <authorEmail>jonasjovaisas0@gmail.com</authorEmail>
+    <authorUrl>http://www.modernjoomla.com</authorUrl>
+    <version>1.0.4</version>
+    <description>Modern tours installation successful</description>
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    <update>
+        <schemas>
+            <schemapath type="mysql">sql</schemapath>
+        </schemas>
+    </update>
+    <media destination="com_modern_tours" folder="media">
+        <folder>css</folder>
+        <folder>js</folder>
+        <folder>img</folder>
+        <folder>fonts</folder>
+    </media>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>modern_tours.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+		        <folder>layouts</folder>
+        <folder>invoice</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+        <folder>csv</folder>
+    </files>
+    <languages folder="site/language">
+        <language tag="en-GB">en-GB/en-GB.com_modern_tours.ini</language>
+    </languages>
+    <administration>
+        <menu img="components/com_modern_tours/assets/images/s_com_modern_tours.png" >COM_MODERN_TOURS</menu>
+        <submenu>
+            <menu link="option=com_modern_tours&amp;view=assets" view="assets" img="components/com_modern_tours/assets/images/s_fields.png" alt="Modern_tours/Assets">COM_MODERN_TOURS_FIELDS_ASSETS</menu>
+            <menu link="option=com_modern_tours&amp;view=locations" view="locations" img="components/com_modern_tours/assets/images/s_fields.png" alt="Modern_tours/Locations">COM_MODERN_TOURS_FIELDS_LOCATIONS</menu>
+            <menu link="option=com_modern_tours&amp;view=categories" view="categories" img="components/com_modern_tours/assets/images/s_fields.png" alt="Modern_tours/Categories">COM_MODERN_TOURS_FIELDS_CATEGORIES</menu>
+            <menu link="option=com_modern_tours&amp;view=modernforms" view="modernforms" img="components/com_modern_tours/assets/images/s_fields.png" alt="Modern_tours/Modernforms">COM_MODERN_TOURS_FIELDS_MODERNFORMS</menu>
+            <menu link="option=com_modern_tours&amp;view=coupons" view="coupons" img="components/com_modern_tours/assets/images/s_fields.png" alt="Modern_tours/Coupons">COM_MODERN_TOURS_FIELDS_COUPONS</menu>
+            <menu link="option=com_modern_tours&amp;view=reviews" view="reviews" img="components/com_modern_tours/assets/images/s_fields.png" alt="Modern_tours/Reviews">COM_MODERN_TOURS_FIELDS_REVIEWS</menu>
+            <menu link="option=com_modern_tours&amp;view=reservations" view="reservations" img="components/com_modern_tours/assets/images/s_fields.png" alt="Modern_tours/Reservations">COM_MODERN_TOURS_FIELDS_RESERVATIONS</menu>
+        </submenu>
+        <files folder="administrator">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>modern_tours.php</filename>
+            <folder>controllers</folder>
+            <folder>sql</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>csv</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="administrator/language">
+            <language tag="en-GB">en-GB/en-GB.com_modern_tours.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_modern_tours.sys.ini</language>
+        </languages>
+    </administration>
+    <updateservers>
+        <server type="extension" name="com_modern_tours" priority="1">http://www.modernjoomla.com/modern_tours.xml</server>
+    </updateservers>
+</extension>

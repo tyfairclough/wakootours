@@ -1,0 +1,83 @@
+body .rules-group-container input, body .rules-group-container select {
+    display: inline-block;
+}
+
+.btn-group.pull-right.rule-actions {
+    float: right;
+    display: block;
+}
+
+.rule-container div {
+    display: inline-block;
+}
+
+.rule-header {
+    display: block;
+    float: right;
+}
+.query {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.delete_discount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 8px 17px;
+    background: #e29494;
+    color: white;
+}
+#discounts h2 {
+    display: block;
+    color: #656565;
+    font-weight: 400;
+    margin: 0;
+}
+#discounts .btn-group.group-conditions {
+    display: none;
+}
+
+#discounts .btn-group.pull-right.group-actions {
+    display: none;
+}
+
+ul.rules-list {
+    margin: 0;
+}
+
+dd.rules-group-body {
+    margin: 0;
+    margin-left: -6px;
+}
+
+body #discounts input, body #discounts select, body #discounts button {
+    height: 35px !important;
+    box-sizing: border-box;
+    margin-right: 10px;
+    font-family: "Raleway";
+}
+.discount_block h2 {
+    padding-bottom: 15px;
+}
+.discount_block {
+    width: 100%;
+    \: 15px;
+    position: relative;
+    \: #f1f1f1;
+    box-sizing: border-box;
+    margin-bottom: 23px;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 16px;
+}
+
+.delete_discount:hover {
+    background: #fbfbfb;
+    color: #7b7b7b;
+}
+
+button.btn.btn-xs.btn-danger {
+    display: none !Important;
+}

@@ -1,0 +1,1257 @@
+/* CHECKOUT */
+h2.checkout-h2 {
+    margin: 0;
+    line-height: 40px;
+}
+.time {
+  width: 100%;
+  border: 1px solid #cccccc;
+  background: white;
+  border-radius: 3px;
+  font-size: 13px;
+  cursor: pointer;
+  text-indent: 5px;
+  padding: 7px 0;
+  position: relative;
+  padding-left: 33px;
+  line-height: 17px;
+  padding-bottom: 2px;
+  margin-bottom: 5px;
+}
+.time.selected {
+  border-color: #26abe2;
+}
+
+.asset-timeslots {
+  display: none;
+  margin-top: 5px;
+}
+
+.asset-info-box {
+  padding: 30px 25px;
+  border: 1px solid gainsboro;
+}
+.asset-info-box hr {
+    margin: 15px 0;
+    padding: 0;
+}
+
+img.asset-img-checkout {
+  float: right;
+  height: 35px;
+  margin-top: 5px;
+}
+
+h4.asset-name {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 25px;
+  margin-top: -5px;
+}
+
+.booking-review-text {padding: 15px 0 25px 0;line-height: 25px;}
+
+ul.asset-steps {
+  padding: 0;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+ul.asset-steps li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 15px;
+}
+ul.asset-steps li.active {
+  color: black;
+  font-weight: 600;
+}
+
+ul.asset-steps li svg {
+  margin-right: 15px;
+}
+
+.move-right {
+  float: right;
+  font-size: 14px;
+}
+.checkout-box-line {
+  margin-bottom: 10px;
+  line-height: 23px;
+}
+.checkout-box-line.title-box {
+  min-height: 40px;
+}
+.participant-line-adult, .participant-line-child {
+  display: none;
+}
+
+.review-line {
+  margin: 0;
+}
+b {
+  font-weight: 500 !important;
+}
+
+
+
+.pay-text {
+  padding: 15px 0;
+}
+.asset-checkout {
+    color: #626262;
+    font-size: 15px;
+    font-weight: 400;
+}
+body .asset-checkout input[type=text], body .asset-checkout input[type=email],body .asset-checkout input[type=number], body .asset-checkout select, div#user-data textarea, select#payment {
+  height: 40px;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 14px;
+  color: grey;
+  border: 1px solid #bdbdbd;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 100%;
+  margin-bottom: 0;
+}
+select#payment {
+  margin-bottom: 20px;
+}
+body .form-group {
+    margin: 0;
+    margin-bottom: 1%;
+}
+@media (min-width: 768px) AND (max-width: 981px) {
+  body .form-group {
+    width: 99% !important;
+  }
+}
+@media (max-width: 500px) {
+  body .form-group {
+    width: 99% !important;
+  }
+}
+
+
+div#user-data label.can-hide {
+    display: none;
+}
+div#user-data input[type="text"], body .asset-checkout input[type=email], body .asset-checkout input[type=number], div#user-data select, div#user-data textarea {
+  width: 100%;
+  margin-bottom: 0;
+}
+div#user-data textarea {
+  height: auto;
+  min-height: 100px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+ul.travellers-list {
+  padding: 0;
+  margin: 0;
+}
+ul.travellers-list .can-hide {
+    display: none;
+}
+
+ul.travellers-list .form-group {
+    display: inline-block;
+    margin-right: 1%;
+}
+ul.travellers-list li.traveller-item {
+  list-style-type: decimal;
+  margin-bottom: 1%;
+  color: #646464;
+  font-size: 15px;
+  float: left;
+  width: 100%;
+  line-height: 38px;
+}
+ul.travellers-list li .form-group:last-child {
+  margin-right: 0 !important;
+}
+.btns {
+    margin-bottom: 30px;
+}
+button.next-btn {
+  background: #35aa79;
+  color: white;
+}
+button.next-btn:hover {
+  background: #2f966b;
+}
+button.prev-btn {
+  background: #f2f2f2;
+  color: #6f6f6f;
+  margin-left: 5px;
+}
+button.prev-btn:hover {
+  background: #f8f8f8;
+}
+button.next-btn, button.prev-btn {
+  border: none;
+  padding: 12px 15px;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+input#coupon-input {
+  margin-top: 5px;
+}
+
+.checkout-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 999999;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: none;
+}
+.step2, .step3 {
+  display: none;
+}
+
+body .close {
+  margin-right: 15px;
+  margin-top: 1px;
+  font-size: 43px;
+  font-weight: 400;
+  position: relative;
+  z-index: 999;
+}
+
+
+.body .container {
+  box-shadow: none !important;
+  border: none !important;
+  overflow: auto;
+}
+
+.tour {
+  font-family: "Lato";
+  font-size: 17px;
+  line-height: 31px;
+}
+
+.tour ul {
+  padding: 0;
+  margin: 0;
+}
+
+.tour ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 26px;
+  padding-left: 5px;
+  font-size: 16px;
+}
+.tour ul li i {
+  margin-right: 10px;
+  font-size: 11px;
+}
+
+.tour ul.includes-list i {
+  color: #559a4d;
+}
+.tour ul.excludes-list i {
+  color: #9a4d4d;
+}
+
+.tour section {
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 30px;
+}
+span.tour-rating {
+  font-size: 16px;
+  text-shadow: 0 0 2px black;
+  font-weight: 100;
+}
+i.fa.fa-star, i.fa.fa-star-o.blank {
+  font-size: 14px;
+  margin-right: 3px;
+  color: #ffbe00;
+}
+i.fa.fa-star.blank:before {
+  color: #ffdb72;
+}
+.tour h3.section-title.itirenary-title {
+  font-size: 30px;
+  margin-bottom: -15px;
+  font-weight: 800;
+}
+
+.tour li.day-item {
+  font-size: 24px;
+  line-height: 70px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  padding-top:  15px;
+}
+
+h2.cat-title a {
+  color: #ffffff;
+  font-weight: 400;
+  transition: 0.2s;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 999;
+  text-decoration: none !important;
+}
+h2.cat-title a:hover {
+  transform: scale(1.1);
+}
+i.fa.fa-map-marker {
+  font-size: 15px;
+  margin-right: 6px;
+  display: none;
+}
+.category-container.style1-container {
+  width: 100%;
+}
+
+body h2.cat-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: white;
+  display: table;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.cat-title a:hover {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 25px;
+}
+.tours-count {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    transform: translateY(-55px);
+    color: white;
+    opacity: 0;
+    transition: 0.4s;
+}
+.info-keeper:hover .tours-count {
+    transform: translateY(-117px);
+    color: white;
+    opacity: 1;
+    font-weight: 400;
+    z-index: 9;
+}
+
+.category-container {
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  display: block;
+  background-position: center;
+}
+.category-container.h200 {
+    height: 250px;
+    margin: 0;
+}
+
+.info-keeper {
+  padding-top: 5px;
+  width: 100%;
+  height: 100%;
+}
+.info-keeper:hover:after {
+  opacity: 0.5;
+}
+.info-keeper:after {
+  display: block;
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.33) 100%);
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.33) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgb(0, 0, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#54000000',GradientType=0 );
+  z-index: 0;
+  transition: 0.3s;
+  opacity: 0.25;
+}
+
+.tour-background {
+  height: 350px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.clndr {
+  width: 340px;
+  border: 1px solid #d4d4d4;
+  font-size: 12px;
+  background: white;
+  margin-top: -1px;
+  padding: 0 5px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: max-content;
+  position: fixed;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 5px 17px 7px #797979b0;
+  z-index: 9999999999;
+}
+
+.clndr .clndr-control-button {
+  padding: 0 9px;
+  position: absolute;
+  left: 0;
+  top: 14px;
+}
+
+.clndr .clndr-control-button.rightalign {
+  right: 5px;
+  left: inherit;
+}
+
+.clndr .month {
+  display: inline-block;
+  font-weight: 400;
+  color: white;
+  font-size: 16px;
+  margin-top: 6px;
+  text-transform: capitalize;
+}
+
+.clndr .clndr-controls {
+  text-align: center;
+  height: 50px;
+  line-height: 39px;
+  position: relative;
+  margin: 0 -6px;
+  margin-top: -1px;
+}
+
+.clndr td.day {
+  line-height: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  border: none;
+  color: #6d6d6d;
+  width: calc(100% / 7) !important;
+  font-size: 13px;
+  padding: 0;
+  padding-bottom: 7px !important;
+}
+.clndr td.day:not(.blocked) .day-contents {
+  color: white;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.clndr td.day:not(.blocked) .day-contents:hover {opacity: 0.8;}
+.clndr td.day.past:not(.blocked) .day-contents {
+  background: #ffffff;
+  color: #aaaaaa;
+  cursor: none;
+  pointer-events: none;
+}
+
+.clndr td.header-day {
+  text-align: center;
+  border: none;
+  height: 40px;
+  color: #777777;
+  font-weight: 500;
+}
+
+td.day.past {
+  color: #c9c9c9;
+}
+table.clndr-table {
+  width: 100%;
+  border: none;
+  display: table;
+}
+td.day.adjacent-month .day-contents {
+    background: transparent !important;
+    color: #959595 !important;
+}
+
+.day-contents {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+}
+
+
+
+span.clndr-next-button, span.clndr-previous-button {
+    width: 22px;
+    height: 22px;
+    line-height: 18px;
+    background: #f2f2f2;
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 10px;
+}
+span.clndr-next-button:hover, span.clndr-previous-button:hover {
+    background: #f6f6f6;
+}
+
+div#select-date {
+  position: relative;
+}
+
+div#clndr {
+  position: relative;
+  z-index: 99999;
+  display: none;
+  left: 0;
+  right: 0;
+  top: 0 !important;
+  bottom: 0;
+  margin: auto;
+  width: fit-content;
+}
+
+div#bookModal {
+  opacity: 1;
+  margin: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: #00000059;
+}
+
+
+
+
+/* MEDIA */
+@media (max-width: 767px) {
+  ul.asset-steps LI {
+    display: block;
+    margin-bottom: 10px;
+  }
+  ul.asset-steps LI svg {
+    display: none;
+  }
+  .asset-info-box {
+    margin-top: 30px;
+  }
+  .checkout-step {
+    margin-top: 20px;
+  }
+  ul.asset-steps {
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 767px) {
+  .pad-30 {
+    padding-left:  30px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #search-bar .search-bar-field {
+      margin-bottom: 10px;
+  }
+}
+
+
+
+@media (min-width: 767px) AND (max-width: 978px) {
+  button.next-btn, button.prev-btn {
+    width: 100% !important;
+  }
+}
+
+.time i {
+    padding-right: 5px;
+    font-size: 16px;
+    position: absolute;
+    left: 9px;
+    top: 16px;
+}
+.selected i.fa.fa-clock-o {
+    padding-right: 6px;
+}
+.selected i.fa.fa-clock-o:before {
+    content: "\f00c";
+    font-size: 13px;
+}
+i.fa.fa-users.fa-2x {
+    font-size: 23px;
+    margin-top: -2px !important;
+}
+
+i.fa.fa-heart-o.fa-2x {
+    margin-top: -2px;
+    font-size: 26px;
+    left: 1px;
+}
+
+.box-price-total {
+    margin-top: 10px;
+}
+
+
+.view-asset section#sp-main-body {
+    padding-top: 0 !important;
+}
+#tour-details-section > h2.checkout-h2 {
+    margin-top: -4px !important;
+}
+.cover-overlay {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.33+16,0+50,0+55,0.25+91 */background: -moz-linear-gradient(top,  rgba(0,0,0,0.33) 0%, rgba(0,0,0,0.33) 16%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.25) 91%, rgba(0,0,0,0.25) 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top,  rgba(0,0,0,0.33) 0%,rgba(0,0,0,0.33) 16%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 55%,rgba(0,0,0,0.25) 91%,rgba(0,0,0,0.25) 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom,  rgba(0,0,0,0.33) 0%,rgba(255, 255, 255, 0.33) 16%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 55%,rgba(0,0,0,0.25) 71%,rgba(0, 0, 0, 0.67) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54000000', endColorstr='#40000000',GradientType=0 ); /* IE6-9 */position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-size: cover;background-position: center;z-index: 1;}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: #00000066;
+  transition: 0.25s;
+}
+.overlay.fadeIn {
+  opacity: 1;
+}
+
+
+body.no-overflow {
+    overflow: hidden;
+}
+
+span.hour-small {
+    color: grey;
+    font-size: 14px;
+}
+
+svg.marged10 {
+    margin: 0px 4px;
+    width: 7px;
+}
+
+.select-time {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.related-cover {
+    width: 100%;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+
+.swal2-container.swal2-fade.swal2-shown button.swal2-confirm.swal2-styled,
+.swal2-container.swal2-fade.swal2-shown hr {
+    display: none;
+}
+
+.col-xs-6.lf {
+    padding: 0;
+    padding-right:  5px;
+}
+
+.col-xs-6.rf {
+    padding: 0;
+    padding-left: 5px;
+}
+
+.reserve {
+    display: none;
+}
+
+td.day.blocked {
+    pointer-events: none;
+    color: #aeaeae;
+}
+
+div#open-calendar {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #cdcdcd;
+    text-indent: 5px;
+    font-size: 14px;
+    background: white;
+    cursor: pointer;
+}
+div#open-calendar:hover {
+    border-color: #4665ad;
+}
+span.placeholder {
+    padding-left:  5px;
+    color: #272727  !important;
+    text-transform: inherit;
+}
+
+body.com-modern-tours.view-asset #sp-main-body {
+    padding-top: 40px;
+}
+
+span#view-gallery {
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 2px;
+    border: 1px solid #cbcbcb;
+    cursor: pointer;
+    position: absolute;
+    bottom: 14px;
+    right: 50px;
+}
+span#view-gallery:hover {
+    opacity: 0.9;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.time.sold-out {
+    border: 1px solid #b35c5c;
+}
+.time.sold-out i {
+    color: #da8d8d;
+    padding-right: 10px;
+}
+.time.sold-out {
+    border: 1px solid #b35c5c;
+}
+.time small {
+    color: #7e7e7e;
+    display: block;
+    margin-left: 1px;
+    font-size: 12px;
+    line-height: 23px;
+}
+.red-border {
+  border-color: red !important;
+}
+span.available-slots {
+    background: #676767;
+    padding: 0 3px;
+    border-radius: 3px;
+    color: white;
+    font-size: 12px;
+    margin-left: 2px;
+}
+.btn-keeper {
+    bottom: 15px;
+    width: 200px;
+    margin: auto;
+    float: left;
+}
+
+span.tag {
+    margin-right: 10px;
+    font-size: 13px;
+    color: gainsboro;
+}
+
+.lowest-price {
+    margin-top: 10px;
+}
+.btn-keeper a.btn.full-btn {
+    margin-top: 31px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.asset-review span.review-text {
+  display: block;
+}
+
+.info-fields {
+    margin-top: 15px;
+}
+a.btn.full-btn {
+    font-size: 100%;
+    background: #556393;
+    color: white;
+    display: block;
+    height: 40px;
+    line-height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    text-shadow: none;
+}
+
+h3.asset-carousel-h3 {
+    font-size: 110%;
+    margin: 0;
+    padding: 0;
+}
+
+.asset-item {
+    margin-bottom: 25px;
+    background: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.asset-item h3.list-item-title {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.pad-15 {
+    padding: 15px;
+}
+
+.asset-last-col {
+    border-left: 1px solid #e8e8e8;
+}
+
+.no-pad {
+  padding: 0 !important;
+}
+
+a.single-asset-link {
+    font-size: 120%;
+    line-height: 30px;
+    font-weight: 500;
+    color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inherit;
+}
+
+.from-word {
+    font-size: 80%;
+    color: grey;
+    margin-top: 10px;
+}
+
+.asset-lowest {
+    font-size: 200%;
+    font-weight: 600;
+    margin-top: -10px;
+}
+ul.excludes-list {
+    padding: 0;
+}
+
+#related-tours {
+    width: 100%;
+}
+#related-tours span.post-content p {
+    margin: 0;
+    padding: 0;
+}
+
+/**** SEARCH BAR *****/
+#search-bar {
+    padding: 30px 0;
+    border-radius: 2px;
+    color: #505050;
+}
+
+#searchbar-container {
+    background: #ffffff;
+}
+
+#search-bar #search-btn {
+    height: 40px;
+    background: #414141;
+    border: none;
+    color: #ffffff;
+    width: 100%;
+    padding: 0;
+}
+#search-bar #search-btn:hover {
+    background: #797979;
+}
+
+#search-bar input, 
+#search-bar select {
+    font-size: 90%;
+    padding: 0;
+    height: 40px;
+    padding-left: 10px !important;
+    padding-right:  5px;
+    text-indent: 0 !important;
+    border: 2px solid #e2e2e2;
+    border-radius: 0;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+
+/******* ASSET COLUMN ********/
+.asset-keeper {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e3e3e3;
+}
+
+.asset-content {
+    clear: both;
+    padding: 15px 20px;
+}
+.asset-content .small-description {
+    margin-top: 15px;
+    color: grey;
+}
+.asset-content .asset-info {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #181818;
+}
+.asset-footer {
+    margin-bottom: -15px;
+    margin-left: -20px;
+    padding: 10px 20px;
+    margin-right: -20px;
+    margin-top: 17px;
+    background: #f7f7f7;
+}
+
+span.asset-price-from {
+    font-size: 12px;
+    margin-right: 5px;
+    color: grey;
+}
+
+span.asset-footer-price {
+    font-weight: 600;
+    color: #397ea5;
+}
+
+h3.asset-list-title {
+    line-height: 25px;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+form#review-form label {
+    margin-top: 10px;
+}
+button#submit-review {
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #e6e6e6;
+    border-radius: 2px;
+    cursor:pointer;
+}
+button#submit-review:hover {
+    background: #d5d5d5;
+}
+
+#review-modal textarea, #review-modal input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+}
+
+
+
+/**** CATEGORY TITLE *****/
+section#sp-section-1 > .container {
+    max-width: 100%;
+    padding: 0px;
+    width: 100%;
+}
+
+div#sp-tourdetails .cat-bg {
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0;
+    position: relative;
+    min-height: 330px;
+}
+
+div#sp-tourdetails .cat-bg:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #0000003b;
+}
+
+div#sp-tourdetails .category-title {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    line-height: 50px;
+}
+div#sp-tourdetails .category-title-desc {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+/*** ALIGNS ***/
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.h50 {
+    height: 50px !important;
+}
+
+.w50 {
+    width: 50px !important;
+}
+
+.inline.slider_nav button {
+    background: transparent;
+    border: none;
+    height: 30px;
+    line-height: 0;
+    border-radius: 100%;
+    width: 30px;
+    transition: 0.5s;
+}
+.inline.slider_nav button:hover {
+  background: white;
+}
+
+.inline.slider_nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.slider-nav {
+    height: 50px;
+    position: relative;
+}
+
+h3.slider-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+/***** LIST ITEMS ******/
+.asset-list-item {
+    width: 100%;
+}
+
+.asset-list-item .category-container.list-container {
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+
+.asset-list-item .asset-list-h4 {
+    margin-top: -5px;
+    font-size: 80%;
+    display: block;
+}
+
+
+
+/**** LOADING *****/
+div#loading-block {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.loading-text {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.loading-gif {
+    display: inline;
+    width: 100px;
+}
+
+h2#modalTitleId {
+    margin-bottom: 1em;
+}
+
+hr.swal2-spacer {
+    display: none !important;
+}
+
+span.warning {
+    background: maroon;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 21px;
+    font-size: 16px;
+}
+
+/****** LIST SLIDER *********/
+.owl-carousel .asset-item-column {
+    padding-top: 15px;
+}
+.asset-item-column {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.owl-stage-outer {
+    padding: 15px 0;
+}
+
+.owl-nav {
+  display: none !important;
+}
+
+.asset-item-column a.btn.full-btn {
+    color: black;
+    text-align: left;
+    padding: 10px;
+    width: inherit;
+    display: inline-block;
+    background: #dbdbdb;
+    margin: 0;
+    float: none;
+    clear: both;
+    line-height: 17px;
+    margin-top: 15px;
+}
+
+.asset-item-column .asset-review {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.asset-item-column .asset-review span.review-text {
+    display: inline;
+    padding-left: 5px;
+}
+
+
+
+/***** DATA LIST ******/
+.data-list .asset-keeper {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.data-list .asset-keeper:after {
+    content: " ";
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    box-shadow: 0px -20px 50px 55px #0000008f;
+    z-index: 1;
+}
+
+.data-list span.data-title {
+    position: absolute;
+    z-index: 9;
+    bottom: 5%;
+    left: 8%;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.data-list .h300 {
+    height: 300px;
+}
+
+.location-list-item .category-container {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+/********* ABSOLUTE ARROWS *********/
+.nav-absolute .inline.slider_nav button {
+    top: -15px;
+    z-index: 99999;
+    cursor: pointer;
+    position: absolute;
+}
+
+.nav-absolute .inline.slider_nav button.next {
+    left: 0;
+}
+
+.nav-absolute .inline.slider_nav button.am-prev {
+    right: 0;
+}
+
+.nav-absolute button:focus {
+    outline: none;
+}
+
+
+
+/*** HOVER EFFECTS ***/
+.hover-effect {
+    transition: 0.1s;
+}
+
+.TZoomInAndRotate:hover {
+    transform: rotate(-2deg) scale(1.05);
+}
+
+.TslideUp:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 11px 0px 0 #0000001f;
+}
