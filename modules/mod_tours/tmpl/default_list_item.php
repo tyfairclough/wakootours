@@ -16,10 +16,10 @@ $colClass = !$params->get('create_slider') ? $params->get('col_lg') . ' ' . $par
             </h4>
 	    <?php endif ;?>
 
-	    <?php if($asset->params->length && $params->get('show_details')): ?>
+	    <?php /* if($asset->params->length && $params->get('show_details')): ?>
             <span class="from-price-asset">
-                <?php echo JText::_( 'FROM' ); ?> <?php echo $asset->currencySymbol; ?><?php echo $asset->lowestPrice; ?>
+                <?php echo JText::_( 'FROM' ); ?> !!!<?php echo $asset->currencySymbol; ?><?php echo $asset->lowestPrice; ?>
             </span>
-	    <?php endif; ?>
+	    <?php endif; */ ?>
     </div>
 </div>
