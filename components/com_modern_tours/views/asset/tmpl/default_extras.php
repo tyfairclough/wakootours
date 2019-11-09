@@ -76,7 +76,7 @@ L.marker([<?php echo $this->item->params->destination; ?>]).addTo(mymap)
       zoom: 14
     });
   }
-</script -->>
+</script -->
         </div>
         <div class="uk-width-expand@m">
           <h1>Getting here</h1>
@@ -169,555 +169,547 @@ L.marker([<?php echo $this->item->params->destination; ?>]).addTo(mymap)
         </div>
     </div>
 
-    <div class="uk-container uk-section-large">
-      <div class="uk-grid-large uk-grid-margin-large uk-grid uk-grid-stack" uk-grid="">
-    <div class="uk-width-1-1@m uk-first-column">
+    <div class="uk-container uk-section-large"><div class="uk-grid-large uk-grid-margin-large uk-grid uk-grid-stack" uk-grid="">
+<div class="uk-width-1-1@m uk-first-column">
 
 
 
 
 
-    <h1 class="uk-margin-large uk-heading-small uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#4" uk-scrollspy-class="" style="">        Tour comparison    </h1><div class="uk-text-large uk-margin uk-width-xxlarge uk-margin-auto uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#5" uk-scrollspy-class="" style="">We offer 3 tour types to cater for the different needs of our guests. <br>Compare features of each tour type to help decide which is best for your party.</div>
+<h1 class="uk-heading-small uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" uk-scrollspy-class="" style="">        Tour comparison    </h1><div class="uk-text-large uk-margin uk-width-xxlarge uk-margin-auto uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" uk-scrollspy-class="" style="">We offer 3 tour types to cater for the different needs of our guests. Compare features of each tour type to help decide which is best for your party.</div>
 
 
 
-    </div>
-    </div><div class="uk-grid-large uk-margin-large uk-grid" uk-grid="" uk-height-match="target: .uk-card; row: false">
-    <div class="uk-grid-item-match uk-width-expand@m">
-            <div class="uk-tile-primary uk-tile uk-flex uk-flex-middle">
+</div>
+</div><div class="uk-grid-large uk-margin-large uk-grid" uk-grid="" uk-height-match="target: .uk-card; row: false">
+<div class="uk-grid-item-match uk-width-expand@m">
+        <div class="uk-tile-primary uk-tile uk-flex uk-flex-middle">
 
 
-                            <div class="uk-panel uk-width-1-1">
+                        <div class="uk-panel uk-width-1-1">
 
-    <h3 class="uk-h1 uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#8" uk-scrollspy-class="" style="">        Standard    </h3><div class="uk-text-lead uk-margin uk-margin-remove-bottom uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#9" uk-scrollspy-class="" style="">Adult tickets from</div>
-    <h1 class="uk-heading-small uk-margin-remove-top uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#10" uk-scrollspy-class="" style="">        $59    </h1><div class="uk-margin uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#11" uk-scrollspy-class="" style="">Our standard group tour is our most popular tour type. Guests are transferred to the destination while a professional guide chaperones the party around a carefully selected route.</div>
-    <ul class="uk-list uk-list-striped uk-text-right uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#12" uk-scrollspy-class="" style="">        <li class="el-item">
+<h3 class="uk-h1 uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" uk-scrollspy-class="" style="">        Premium    </h3><div class="uk-margin uk-scrollspy-inview uk-animation-slide-bottom-small" uk-scrollspy-class="" style="">Our standard group tour is our most popular tour type. Guests are transferred to the destination while a professional guide chaperones the party around a carefully selected route.</div>
+<ul class="uk-list uk-list-striped uk-text-right uk-scrollspy-inview uk-animation-slide-bottom-small" uk-scrollspy-class="" style="">        <li class="el-item">
 
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Group size</strong>
-
-            </div>
-            <div>
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
 
 
-                <div class="el-content uk-panel">7-16</div>
+    <strong class="el-title uk-display-block">Group size</strong>
 
-            </div>
         </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+        <div>
 
 
-        <strong class="el-title uk-display-block">Entry fees<sup>†</sup></strong>
+            <div class="el-content uk-panel"><p>7-10</p></div>
 
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
         </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Certified professional guide</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Swarovski optics scope</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Transfers</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Complimentary water</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Complimentary snacks</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Complimentary meal</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: close; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close"><path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path><path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path></svg></span>
-    <span class="hidden">Not included in this tour</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Personalised tour</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: close; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close"><path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path><path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path></svg></span>
-    <span class="hidden">Not included in this tour</span></div>
-
-            </div>
-        </div>
-
-    </li>
-        </ul>
-
-                            </div>
-
-
-            </div>
-
     </div>
 
-    <div class="uk-grid-item-match uk-width-expand@m">
-            <div class="uk-tile-secondary uk-tile uk-flex uk-flex-middle">
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
 
 
-                            <div class="uk-panel uk-width-1-1">
+    <strong class="el-title uk-display-block">Entry fees<sup>†</sup></strong>
 
-    <h3 class="uk-h1 uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#14" uk-scrollspy-class="" style="">        Private    </h3><div class="uk-text-lead uk-margin uk-margin-remove-bottom uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#15" uk-scrollspy-class="" style="">Adult tickets from</div>
-    <h1 class="uk-heading-small uk-margin-remove-top uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#16" uk-scrollspy-class="" style="">        $99    </h1><div class="uk-margin uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#17" uk-scrollspy-class="" style="">Deseperate to see a 3 toes sloth but one hasn't revealed itself to you? On a private tour our guides will personalise your experience to maximise time spent looking for the things you love.</div>
-    <ul class="uk-list uk-list-striped uk-text-right uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#18" uk-scrollspy-class="" style="">        <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Group size</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel">1-6</div>
-
-            </div>
         </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+        <div>
 
 
-        <strong class="el-title uk-display-block">Entry fees<sup>†</sup></strong>
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
 
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
         </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Certified professional guide</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Swarovski optics scope</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Transfers</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Complimentary water</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Complimentary snacks</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Complimentary meal</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Personalised tour</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-        </ul>
-
-                            </div>
-
-
-            </div>
-
     </div>
 
-    <div class="uk-grid-item-match uk-flex-middle uk-width-expand@m uk-flex-first@m uk-first-column">
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid uk-grid-stack" uk-grid="">        <div class="uk-width-auto uk-first-column">
 
 
+    <strong class="el-title uk-display-block">Certified professional guide</strong>
 
-                            <div class="uk-panel uk-width-1-1">
-
-    <h3 class="uk-h1 uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#20" uk-scrollspy-class="" style="">        Basic    </h3><div class="uk-text-lead uk-margin uk-margin-remove-bottom uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#21" uk-scrollspy-class="" style="">Adult tickets from</div>
-    <h1 class="uk-heading-small uk-margin-remove-top uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#22" uk-scrollspy-class="" style="">        $40    </h1><div class="uk-margin uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#23" uk-scrollspy-class="" style="">Student, Backpacker or on a tight budget?
-    For those willing to forgo the creature comforts or have alternative transportion and catering arranged then the Basic option includes the same great group tours at a reduced price.</div>
-    <ul class="uk-list uk-list-striped uk-text-right uk-scrollspy-inview uk-animation-slide-bottom-small" data-id="page#24" uk-scrollspy-class="" style="">        <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Group size</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel">10-16</div>
-
-            </div>
         </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+        <div class="uk-grid-margin uk-first-column">
 
 
-        <strong class="el-title uk-display-block">Entry fees<sup>†</sup></strong>
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
 
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
         </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Certified professional guide</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Swarovski optics scope</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
-    <span class="hidden">Included in ticket</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Transfers</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: close; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close"><path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path><path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path></svg></span>
-    <span class="hidden">Not included in this tour</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Complimentary water</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: close; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close"><path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path><path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path></svg></span>
-    <span class="hidden">Not included in this tour</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Complimentary snack</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: close; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close"><path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path><path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path></svg></span>
-    <span class="hidden">Not included in this tour</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Complimentary meal</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: close; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close"><path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path><path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path></svg></span>
-    <span class="hidden">Not included in this tour</span></div>
-
-            </div>
-        </div>
-
-    </li>
-            <li class="el-item">
-
-        <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
-
-
-        <strong class="el-title uk-display-block">Personalised tour</strong>
-
-            </div>
-            <div>
-
-
-                <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: close; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close"><path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path><path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path></svg></span>
-    <span class="hidden">Not included in this tour</span></div>
-
-            </div>
-        </div>
-
-    </li>
-        </ul>
-
-                            </div>
-
-
-
     </div>
-    </div></div>
 
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Swarovski optics scope</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Transfers</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Complimentary water</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Complimentary snacks</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Complimentary meal</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: close; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close"><path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path><path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path></svg></span>
+<span class="hidden">Not included in this tour</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Personalised tour</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: close; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close"><path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path><path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path></svg></span>
+<span class="hidden">Not included in this tour</span></div>
+
+        </div>
+    </div>
+
+</li>
+    </ul>
+
+                        </div>
+
+
+        </div>
+
+</div>
+
+<div class="uk-grid-item-match uk-width-expand@m">
+        <div class="uk-tile-secondary uk-tile uk-flex uk-flex-middle">
+
+
+                        <div class="uk-panel uk-width-1-1">
+
+<h3 class="uk-h1 uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" uk-scrollspy-class="" style="">        VIP    </h3><div class="uk-margin uk-scrollspy-inview uk-animation-slide-bottom-small" uk-scrollspy-class="" style="">Deseperate to see a 3 toes sloth but one hasn't revealed itself to you? On a private tour our guides will personalise your experience to maximise time spent looking for the things you love.</div>
+<ul class="uk-list uk-list-striped uk-text-right uk-scrollspy-inview uk-animation-slide-bottom-small" uk-scrollspy-class="" style="">        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Group size</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><p>Custom&nbsp;</p></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Entry fees<sup>†</sup></strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid uk-grid-stack" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Certified professional guide</strong>
+
+        </div>
+        <div class="uk-grid-margin uk-first-column">
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Swarovski optics scope</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Transfers</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Complimentary water</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Complimentary snacks</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Complimentary meal</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Personalised tour</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+    </ul>
+
+                        </div>
+
+
+        </div>
+
+</div>
+
+<div class="uk-grid-item-match uk-flex-middle uk-width-expand@m uk-flex-first@m uk-first-column">
+
+
+
+                        <div class="uk-panel uk-width-1-1">
+
+<h3 class="uk-h1 uk-text-center uk-scrollspy-inview uk-animation-slide-bottom-small" uk-scrollspy-class="" style="">        Classic    </h3><div class="uk-margin uk-scrollspy-inview uk-animation-slide-bottom-small" uk-scrollspy-class="" style="">Student, Backpacker or on a tight budget?
+For those willing to forgo the creature comforts or have alternative transportion and catering arranged then the Basic option includes the same great group tours at a reduced price.</div>
+<ul class="uk-list uk-list-striped uk-text-right uk-scrollspy-inview uk-animation-slide-bottom-small" uk-scrollspy-class="" style="">        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Group size</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><p>10-14</p></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Entry fees<sup>†</sup></strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Certified professional guide</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Swarovski optics scope</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: check; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="check"><polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline></svg></span>
+<span class="hidden">Included in ticket</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Transfers</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><p><span class="hidden">Not included in this tour</span></p></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Complimentary water                   </strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><p><span style="font-size: 12pt; font-family: tahoma, arial, helvetica, sans-serif;">X</span></p></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Complimentary snack</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><p><span class="hidden">Not included in this tour</span></p></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Complimentary meal</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: close; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close"><path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path><path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path></svg></span>
+<span class="hidden">Not included in this tour</span></div>
+
+        </div>
+    </div>
+
+</li>
+        <li class="el-item">
+
+    <div class="uk-child-width-expand uk-grid-small uk-grid" uk-grid="">        <div class="uk-width-auto uk-first-column">
+
+
+    <strong class="el-title uk-display-block">Personalised tour</strong>
+
+        </div>
+        <div>
+
+
+            <div class="el-content uk-panel"><span class="uk-icon" uk-icon="icon: close; ratio: 1;"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close"><path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path><path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path></svg></span>
+<span class="hidden">Not included in this tour</span></div>
+
+        </div>
+    </div>
+
+</li>
+    </ul>
+
+                        </div>
+
+
+
+</div>
+</div></div>
 
     <div class="uk-section-default uk-section">
 
