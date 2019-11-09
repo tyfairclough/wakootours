@@ -1,0 +1,8 @@
+{
+    "sections": {
+        "joomla-menus": {
+            "title": "Menus",
+            "priority": 30
+        }
+    }
+}
